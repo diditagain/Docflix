@@ -1,10 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import MainHomepage from './Components/Homepage/MainHomepage'
 
 function App() {
   return (
     <>
-      
+      <MainHomepage />
     </>
   );
 }
