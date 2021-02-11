@@ -35,8 +35,6 @@ function Player() {
               <ReactPlayer
                 url={videourl}
                 playing={playValue}
-                width="100%"
-                height="100%"
                 playbackRate = {playRate}
               />
             </div>
