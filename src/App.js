@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import MainHomepage from "./Components/Homepage/MainHomepage";
 import About from "./Components/About";
 import CategoriesMain from "./Components/Categories/CategoriesMain";
+import MainPlayPage from './Components/Playpage/MainPlayPage'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
-      <h1>Header</h1>
+      <MainPlayPage />
     </div>
   );
 }
