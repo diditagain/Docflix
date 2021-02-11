@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
-import { Button, Container, Row, Col } from "react-bootstrap";
+import { Button, Container, Row, Col, ButtonGroup } from "react-bootstrap";
 
 function Player() {
   const videourl = "https://www.youtube.com/watch?v=lfOgm1IcBd0";
 
   const [playValue, setPlayValue] = useState(true);
   const [playText, setPlayText] = useState("Play");
+  const [playRate, setPlayRate ] = useState(1);
 
   const [playerStyle, setPlayerStyle] =  useState({
     position: "relative",
@@ -23,6 +24,8 @@ function Player() {
     }
   }
 
+
+
   return (
     <>
       <Container>
@@ -34,12 +37,30 @@ function Player() {
                 playing={playValue}
                 width="100%"
                 height="100%"
+                playbackRate = {playRate}
               />
             </div>
             <div>
-              <Button variant="outline-secondary" onClick={changePlayValue}>
+              <Button variant="secondary" onClick={changePlayValue}>
                 {playText}
               </Button>
+              <ButtonGroup className="ml-3">
+              <Button 
+              variant="secondary" 
+              onClick={() => setPlayRate(1)}>{1}</ Button>
+              <Button 
+              variant="secondary" 
+              onClick={() => setPlayRate(1.25)}>{1.25}</ Button>
+              <Button 
+              variant="secondary" 
+              onClick={() => setPlayRate(1.50)}>{1.50}</ Button>
+              <Button 
+              variant="secondary" 
+              onClick={() => setPlayRate(1.75)}>{1.75}</ Button>
+              <Button 
+              variant="secondary" 
+              onClick={() => setPlayRate(2)}>{2}</ Button>
+              </ButtonGroup>
             </div>
           </Col>
         </Row>
