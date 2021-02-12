@@ -1,76 +1,69 @@
-import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css"
-import OwlCarousel from "react-owl-carousel";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
+import React, { Component } from "react";
+import Slider from "react-slick";
+import "../../style.css"
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-function Carousel() {
-  return (
-    <div className="container mt-5">
-      <div
-        id="carouselExampleIndicators"
-        className="carousel slide"
-        data-ride="carousel"
-      >
-        <ol className="carousel-indicators">
-          <li
-            data-target="#carouselExampleIndicators"
-            data-slide-to="0"
-            className="active"
-          ></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img
-              className="d-block w-100"
-              src="https://picsum.photos/id/555/1200/300"
-              alt="First slide" />
+// function SampleNextArrow(props) {
+//   const { className, style, onClick } = props;
+//   return (
+//     <div
+//       className={className}
+//       style={{ ...style, display: "block", background: "red" }}
+//       onClick={onClick}
+//     />
+//   );
+// }
 
+// function SamplePrevArrow(props) {
+//   const { className, style, onClick } = props;
+//   return (
+//     <div
+//       className={className}
+//       style={{ ...style, display: "block", background: "green" }}
+//       onClick={onClick}
+//     />
+//   );
+// }
+
+export default class PauseOnHover extends Component {
+  render() {
+    var settings = {
+      dots: true,
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      pauseOnHover: true,
+      arrows : false
+      
+     
+    };
+    return (
+      <div className="container-carousel">
+        
+        <Slider {...settings} >
+          <div>
+            <img src="https://picsum.photos/id/237/600/300" alt=""/>
           </div>
-          <div className="carousel-item">
-            <img
-              className="d-block w-100"
-              src="https://picsum.photos/id/556/1200/300"
-              alt="Second slide"
-            />
+          <div>
+          <img src="https://picsum.photos/id/237/600/300" alt=""/>
           </div>
-          <div className="carousel-item">
-            <img
-              className="d-block w-100"
-              src="https://picsum.photos/id/557/1200/300"
-              alt="Third slide"
-            />
+          <div>
+          <img src="https://picsum.photos/id/237/600/300" alt=""/>
           </div>
-        </div>
-        <a
-          className="carousel-control-prev"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="prev"
-        >
-          <span
-            className="carousel-control-prev-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="sr-only">Previous</span>
-        </a>
-        <a
-          className="carousel-control-next"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="next"
-        >
-          <span
-            className="carousel-control-next-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="sr-only">Next</span>
-        </a>
+          <div>
+          <img src="https://picsum.photos/id/237/600/300" alt=""/>
+          </div>
+          <div>
+          <img src="https://picsum.photos/id/237/600/300" alt=""/>
+          </div>
+          <div>
+          <img src="https://picsum.photos/id/237/600/300" alt=""/>
+          </div>
+        </Slider>
       </div>
-    </div>
-  );
+    );
+  }
 }
-
-export default Carousel;

@@ -1,14 +1,17 @@
 
 import React from 'react';
-import NavBar from '../NavBar';
 import Carousel from  './Carousel'
+import NewArrivals from './NewArrivals'
+import Trends from './Trends'
 
 function MainHomepage() {
     return (
-        <>
-          <NavBar />
+        <div className="container">
+         
           <Carousel />
-        </>
+          <NewArrivals/>
+          <Trends/>
+        </div>
     );
 }
 export default MainHomepage;
