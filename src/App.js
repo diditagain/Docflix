@@ -14,27 +14,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="bg txt-color">
+    <div>
       
-      <Router>
-      <NavBar />
-        <Switch>
-          <Route path="/home">
-            <MainHomepage />
-          </Route>
-          <Route path="/categories">
-            <CategoriesMain />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-        </Switch>
-      </Router>
-      
-      <Footer/>
+      <MainPlayPage />
     </div>
   );
 }
