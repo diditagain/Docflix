@@ -50,7 +50,7 @@ function Categories(props) {
 
     const cards = categories.map((item, index) => {
         return (
-            <CategoryCard></CategoryCard>
+            <CategoryCard item={item}></CategoryCard>
         );
     });
 
