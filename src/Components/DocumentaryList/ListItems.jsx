@@ -34,6 +34,20 @@ const items = [
     },
 ];
 
+function sortBy(field, isDescending) {
+    return function(a,b){
+        if (isDescending != true) {
+            if (a[field] < b[field]) { return -1; }
+            if (a[field] > b[field]) { return 1; }
+            return 0;
+        }
+        else {
+            if (a[field] > b[field]) { return -1; }
+            if (a[field] < b[field]) { return 1; }
+            return 0;
+        }
+    }
+}
 
 function ListItems(props) {
 
@@ -51,65 +65,15 @@ function ListItems(props) {
 
     useEffect(() => {
         updateList();
-    }, [props.alg,listItems])
+    }, [props.alg, listItems])
 
     function updateList() {
         let sortedItems = [];
         if (props.alg != null) {
-            
-            if (props.alg.value == 'sort-name') {
-                sortedItems = items.sort((a, b) => {
-                    if (a.name < b.name) { return -1; }
-                    if (a.name > b.name) { return 1; }
-                    return 0;
-                });
-                //setListItems(sortedItems);
-            }
-            else if (props.alg.value == 'sort-view') {
-
-                sortedItems = items.sort((a, b) => {
-                    if (a.view > b.view) { return -1; }
-                    if (a.view < b.view) { return 1; }
-                    return 0;
-                });
-
-                //setListItems(sortedItems);
-
-            }
-            else if (props.alg.value == 'sort-like') {
-
-                sortedItems = items.sort((a, b) => {
-                    if (a.like > b.like) { return -1; }
-                    if (a.like < b.like) { return 1; }
-                    return 0;
-                });
-
-                //setListItems(sortedItems);
-
-            }
-            else if (props.alg.value == 'sort-comment') {
-
-                sortedItems = items.sort((a, b) => {
-                    if (a.comment > b.comment) { return -1; }
-                    if (a.comment < b.comment) { return 1; }
-                    return 0;
-                });
-
-                //setListItems(sortedItems);
-
-            }
-            else {
-
-                sortedItems = items.sort((a, b) => {
-                    if (a.id < b.id) { return -1; }
-                    if (a.id > b.id) { return 1; }
-                    return 0;
-                });
-                //setListItems(sortedItems);
-            }
-
+            const val = props.alg.value.substring(props.alg.value.indexOf('-')+1);
+            sortedItems = items.sort((sortBy(val,props.alg.isDescending)));
         }
-        else{
+        else {
             sortedItems = items;
         }
 

@@ -2,11 +2,11 @@ import { React, useEffect, useState, useRef } from 'react'
 import Select from 'react-select'
 
 const options = [
-    { value: 'normal', label: 'By ID' },
-    { value: 'sort-name', label: 'By Name' },
-    { value: 'sort-view', label: 'By View' },
-    { value: 'sort-like', label: 'By Like' },
-    { value: 'sort-comment', label: 'By Comment' },
+    { value: 'normal', label: 'By ID', isDescending: false },
+    { value: 'sort-name', label: 'By Name', isDescending: false  },
+    { value: 'sort-view', label: 'By View', isDescending: true  },
+    { value: 'sort-like', label: 'By Like', isDescending: true  },
+    { value: 'sort-comment', label: 'By Comment', isDescending: true  },
 ];
 
 const customStyles = {
