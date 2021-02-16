@@ -1,55 +1,115 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css"
-import "../style.css"
-import { Container, Row } from "react-bootstrap"
+import "./contact.css"
+import IMGOZGE from "./ozge.jpeg"
+
+import { Container, Row, Image } from "react-bootstrap"
+
 
 function Contact() {
     return (
-        <div>
-            <Container className="mt-5">
-                <div className="row mt-3">
-                    <div class="container">
-                        <img src="img_avatar.png" alt="Avatar" class="image"/>
-                            <div class="overlay">
-                                <div class="text">Hello World</div>
-                            </div>
-                                </div>
-                        <div className="col">
-                            <div className="card">
-                                <img src="/Images/d.png" alt="John" />
-                                <h1>John Doe</h1>
-                                <p className="title">CEO & Founder, Example</p>
-                                <p>Harvard University</p>
-                                <div className="text-center mb-3">
-                                    <a href="#"><i className="fa fa-dribbble"></i></a>
-                                    <a href="#"><i className="fa fa-twitter"></i></a>
-                                    <a href="#"><i className="fa fa-linkedin"></i></a>
-                                    <a href="#"><i classNameName="fa fa-facebook"></i></a>
-                                </div>
-                                <p><button>Contact</button></p>
-                            </div>
-                        </div>
+        <>
+            <Container>
+                <div className="row mt-5 ">
+                    <h1>CONTACT WITH DEVELOPERS</h1>
+                </div>
+                <hr color="white"/>
+                <div className="row mt-5 ">
+                    <div className="d-flex flex-column justify-content-center col-sm-4 ">
+                        <Image className="contact-images" fluid  src={IMGOZGE} ></Image>
+                        <div className="d-flex flex-column mt-3">
+                            <h4>Özge BOĞA</h4>
+                            <p className="list-unstyled">Junior Frontend Developer</p>
+                            <ul className="list-unstyled">
+                                <li>
+                                    <i class="fas fa-envelope mr-2"></i>
+                                    <a href="mailto:ozgeboga01@gmail.com" className="text-white">
+                                        OZGEBOGA01@GMAIL.COM
+                                 </a>
+                                </li>
+                                <li><i class="fab fa-linkedin mr-2"></i>
+                                    <a href="https://www.linkedin.com/in/ozgeboga11" className="text-white">
+                                        Özge Boğa
+                                 </a>
+                                </li>
+                                <li><i class="fab fa-github mr-2"></i>
+                                    <a href="https://github.com/Ozgeboga" className="text-white">
+                                        Ozgeboga
+                                 </a>
+                                </li>
+                                <li></li>
 
-                    </div>
-
-                    <div className="col mt-5">
-                        <div className="card">
-                            <img src="/Images/d.png" alt="John" />
-                            <h1>John Doe</h1>
-                            <p className="title">CEO & Founder, Example</p>
-                            <p>Harvard University</p>
-                            <div className="text-center mb-3">
-                                <a href="#"><i className="fa fa-dribbble"></i></a>
-                                <a href="#"><i className="fa fa-twitter"></i></a>
-                                <a href="#"><i className="fa fa-linkedin"></i></a>
-                                <a href="#"><i classNameName="fa fa-facebook"></i></a>
-                            </div>
-                            <p><button>Contact</button></p>
+                            </ul>
                         </div>
                     </div>
+                     <div className="col-sm">
 
-           </Container>
-        </div>
+                     </div>
+
+                    <div className="d-flex flex-column justify-content-center col-sm-4 ">
+                        <Image fluid  src={IMGOZGE} ></Image>
+                        <div className="d-flex flex-column mt-3">
+                            <h4>Özge BOĞA</h4>
+                            <p className="list-unstyled">Junior Frontend Developer</p>
+                            <ul className="list-unstyled">
+                                <li>
+                                    <i class="fas fa-envelope mr-2"></i>
+                                    <a href="mailto:ozgeboga01@gmail.com" className="text-white">
+                                        OZGEBOGA01@GMAIL.COM
+                                 </a>
+                                </li>
+                                <li><i class="fab fa-linkedin mr-2"></i>
+                                    <a href="https://www.linkedin.com/in/ozgeboga11" className="text-white">
+                                        Özge Boğa
+                                 </a>
+                                </li>
+                                <li><i class="fab fa-github mr-2"></i>
+                                    <a href="https://github.com/Ozgeboga" className="text-white">
+                                        Ozgeboga
+                                 </a>
+                                </li>
+                                <li></li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div className="row d-flex flex-colum justify-content-center">
+                    <div className="col-sm-4">
+                    <Image fluid  src={IMGOZGE} ></Image>
+                        <div className="d-flex flex-column mt-3">
+                            <h4>Özge BOĞA</h4>
+                            <p className="list-unstyled">Junior Frontend Developer</p>
+                            <ul className="list-unstyled">
+                                <li>
+                                    <i class="fas fa-envelope mr-2"></i>
+                                    <a href="mailto:ozgeboga01@gmail.com" className="text-white">
+                                        OZGEBOGA01@GMAIL.COM
+                                 </a>
+                                </li>
+                                <li><i class="fab fa-linkedin mr-2"></i>
+                                    <a href="https://www.linkedin.com/in/ozgeboga11" className="text-white">
+                                        Özge Boğa
+                                 </a>
+                                </li>
+                                <li><i class="fab fa-github mr-2"></i>
+                                    <a href="https://github.com/Ozgeboga" className="text-white">
+                                        Ozgeboga
+                                 </a>
+                                </li>
+                                <li></li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </Container>
+
+        </>
     );
 }
 

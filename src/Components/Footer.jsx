@@ -1,8 +1,10 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../style.css";
+import "../footerstyle.css";
 
-import {Container} from "react-bootstrap"
+import IMGBRAND from "./docflix.png"
+
+import {Container , Image} from "react-bootstrap"
 
 function Footer() {
   return (
@@ -11,15 +13,17 @@ function Footer() {
         <Container>
           <div className="row">
             <div className="col-lg-5 col-xs-12 about-company">
-              <h2>DocFlix</h2>
+             <div className="row">
+              <Image  src={IMGBRAND} ></Image>
+              </div>
               <p className="pr-5 text-white-50">
                 Welcome to DocFlix, the leading source for 100% free documentary
-                films. We curate the best documentary films available online for
+                films. We provide the best documentary films available online for
                 educational purposes as well as personal enjoyment.{" "}
               </p>
             </div>
-            <div className="col-lg-3 col-xs-12 links">
-              <h4 className="mt-lg-0 mt-sm-3">Menu</h4>
+            <div className="col-lg-3 col-xs-12 links mt-5">
+              <h4 className="mt-lg-0 mt-sm-3 ">Menu</h4>
               <ul className="m-0 p-0">
                 <li>
                   - <a href="#">Home</a>
@@ -39,22 +43,22 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col-lg-4 col-xs-12 location">
+            <div className="col-lg-4 col-xs-12 location mt-5">
               <h4 className="mt-lg-0 mt-sm-4">Stay Connected</h4>
               <p classNameName="pr-5 text-white-50">
                 22, Lorem ipsum dolor, consectetur adipiscing
               </p>
-              <p>
-                <a >
-                  <i className="fa fa-facebook-square fa-sm mr-1" />
+              <p >
+                <a href="#">
+                  <i className="fa fa-facebook-square fa-lg mr-1 footer-icons" />
                 </a>
-                <a >
-                  <i className="fa fa-linkedin-square fa-md ms-2" />
+                <a href="#">
+                  <i className="fa fa-linkedin-square fa-lg ms-2 footer-icons" />
                 </a>
               </p>
 
               <p>
-                <i className="fa fa-envelope-o me-3" />
+                <i className="fa fa-envelope-o me-3 footer-icons mr-1" />
                 info@DocFlix.com
               </p>
             </div>

@@ -18,7 +18,7 @@ export default class CenterMode extends Component {
     };
     return (
       <div className="container">
-        <h2 className="mt-5">Trending Documentaries</h2>
+        <h2 className="mt-5">Top Rated</h2>
         <hr color="white"/>
         <Slider {...settings} >
         <div className="listed-docs">

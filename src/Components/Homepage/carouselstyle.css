@@ -1,0 +1,38 @@
+/*
+.listed-docs{
+    cursor:grab;
+   
+    box-shadow: #dbe0de;
+  }
+  .listed-docs:hover {
+   opacity: 0.6;
+  }
+  
+  */
+  /* carousel dots style*/
+  .slick-active button:before {
+    color:rgb(212, 0, 255) !important;
+    font-size:5px;
+  }
+  /* carousel dots style*/
+  .container {
+    position: relative;
+   
+  }
+  /*
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.5s ease;
+  }
+  .container:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+  }
+  */
+  
+  

@@ -1,11 +1,12 @@
 import React from "react";
-import "../index.css"
 import "../App.css"
-
+import IMGBRAND from "./docflix.png"
 import { Link } from "react-router-dom";
 import {
   Navbar,
   Nav,
+  Container,
+  Image,
   Form,
   Button,
   NavDropdown,
@@ -14,31 +15,44 @@ import {
 
 function NavBar() {
   return (
-    <Navbar bg="dark" expand="lg">
-      <Navbar.Brand className="ml-5"><span className="brand">
-        Docflix 
-        <i class="fas fa-film ml-2"></i>
-        </span>
-        </Navbar.Brand>
+    <>
+      
+        <Navbar className="navbar-height" bg="dark" expand="lg">
+          <Navbar.Brand className="navbar-brand">
+            <Link to="/home">
+            <Image fluid className="img-height" src={IMGBRAND}></Image>
+            </Link>
+          </Navbar.Brand>
 
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto mx-auto  fontsize">
-          <Link className='nav-link mr-5' to="/home">
-            <span className="txt-color">Home</span>
+          <Navbar.Toggle aria-controls="basic-navbar-nav " />
+          <Navbar.Collapse id="basic-navbar-nav " >
+            <Nav className="mr-auto mx-auto  fontsize">
+              <Link className='nav-link mr-5 text-white navbar-home' to="/home">
+                Home
           </Link>
-          <Link className='nav-link mr-5' to="/Categories">
-          <span className="txt-color">Categories</span>
+              <Link className='nav-link mr-5 text-white' to="/Categories">
+                Categories
           </Link>
-          <Link className='nav-link mr-5' to="/about"><span className="txt-color">About</span></Link>
-          <Link className='nav-link' to="/contact"><span className="txt-color">Contact</span></Link>
-        </Nav>
-        <Form inline className="">
-          <FormControl type="text" placeholder="I am looking for..." className="mr-sm-2" />
-          <Button variant="outline-warning">Search</Button>
-        </Form>
-      </Navbar.Collapse>
-    </Navbar>
+              <Link className='nav-link mr-5 text-white' to="/about">
+                About
+            </Link>
+              <Link className='nav-link text-white' to="/contact">
+                Contact
+            </Link>
+            </Nav>
+            <div className="container">
+              <div className="search ml-5">
+                <input type="text" className="searchTerm" placeholder="What are you looking for?" />
+                <button type="submit" className="searchButton" >
+                  <i className="fa fa-search fa-md"></i>
+                </button>
+              </div>
+            </div>
+          </Navbar.Collapse>
+        </Navbar>
+
+     
+    </>
   );
 }
 

@@ -9,6 +9,7 @@ function About() {
                 <Row className="mt-5">
                 <h1>About This Project</h1>
                 </Row>
+                <hr color="white"/>
                 <Row className="mt-2">
                 <h3>Purpose :</h3>
                  </Row>
@@ -30,6 +31,7 @@ function About() {
                     <ul>
                         <li>ReactJS</li>
                         <li>React-router-dom</li>
+                        <li>React-slick</li>
                         <li>React-bootstrap</li>
                         <li>Bootstrap</li>
                         <li>Javascript</li>

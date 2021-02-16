@@ -1,30 +1,11 @@
 import React, { Component } from "react";
+import {Row , Col} from "react-bootstrap"
 import Slider from "react-slick";
-import "../../style.css"
+import "./carouselstyle.css"
+import "bootstrap/dist/css/bootstrap.min.css"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-// function SampleNextArrow(props) {
-//   const { className, style, onClick } = props;
-//   return (
-//     <div
-//       className={className}
-//       style={{ ...style, display: "block", background: "red" }}
-//       onClick={onClick}
-//     />
-//   );
-// }
-
-// function SamplePrevArrow(props) {
-//   const { className, style, onClick } = props;
-//   return (
-//     <div
-//       className={className}
-//       style={{ ...style, display: "block", background: "green" }}
-//       onClick={onClick}
-//     />
-//   );
-// }
 
 export default class PauseOnHover extends Component {
   render() {
@@ -36,31 +17,31 @@ export default class PauseOnHover extends Component {
       autoplay: true,
       autoplaySpeed: 3000,
       pauseOnHover: true,
-      arrows : false
-      
-     
+      arrows: false
+
+
     };
     return (
-      <div className="container-carousel">
-        
+      <div className="container mt-3" >
+
         <Slider {...settings} >
           <div>
-            <img src="https://picsum.photos/id/237/600/300" alt=""/>
+            <img src="https://picsum.photos/id/237/600/300" alt="" />
+            </div>
+          <div>
+            <img src="https://picsum.photos/id/237/600/300" alt="" />
           </div>
           <div>
-          <img src="https://picsum.photos/id/237/600/300" alt=""/>
+            <img src="https://picsum.photos/id/237/600/300" alt="" />
           </div>
           <div>
-          <img src="https://picsum.photos/id/237/600/300" alt=""/>
+            <img src="https://picsum.photos/id/237/600/300" alt="" />
           </div>
           <div>
-          <img src="https://picsum.photos/id/237/600/300" alt=""/>
+            <img src="https://picsum.photos/id/237/600/300" alt="" />
           </div>
           <div>
-          <img src="https://picsum.photos/id/237/600/300" alt=""/>
-          </div>
-          <div>
-          <img src="https://picsum.photos/id/237/600/300" alt=""/>
+            <img src="https://picsum.photos/id/237/600/300" alt="" />
           </div>
         </Slider>
       </div>

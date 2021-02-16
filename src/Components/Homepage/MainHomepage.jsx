@@ -3,6 +3,7 @@ import React from 'react';
 import Carousel from  './Carousel'
 import NewArrivals from './NewArrivals'
 import Trends from './Trends'
+import TopRated from './TopRated'
 
 function MainHomepage() {
     return (
@@ -11,6 +12,7 @@ function MainHomepage() {
           <Carousel />
           <NewArrivals/>
           <Trends/>
+          <TopRated/>
         </div>
     );
 }
