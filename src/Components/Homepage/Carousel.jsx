@@ -25,7 +25,7 @@ export default class PauseOnHover extends Component {
       <div className="container mt-3" >
 
         <Slider {...settings} >
-          <div>
+          <div className="row">
             <img src="https://picsum.photos/id/237/600/300" alt="" />
             </div>
           <div>

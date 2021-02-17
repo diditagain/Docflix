@@ -19,7 +19,7 @@ body {
   font-size: 1.4rem;
 }
 .navbar-home{
-  margin-left: 50px !important;
+  margin-left: 100px !important;
 }
 .img-height{
   height: 50px !important;
@@ -80,6 +80,7 @@ body {
   width: 400px;
   position: relative;
   display: flex;
+  margin-left: 70px;
 }
 .search:focus{
   color : none;
@@ -117,38 +118,13 @@ body {
   background-color: transparent;
 }
 
-/*Resize the wrap to see the search bar change!*/
-.wrap{
-  
-  width: 400px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+/* searchbutton end */
+/* translation button styles */
+.translation-button{
+  color : rgb(167, 159, 159);
+  font-weight: bold;
+  background-color : #415658;
 }
-/*span{
-  background:
-     linear-gradient(
-       to bottom, var(--mainColor) 0%,
-       var(--mainColor) 100%
-     );
-  background-position: 0 100%;
-  background-repeat: repeat-x;
-  background-size: 8px 4px;
-  color: #000;
- 
-  transition: background-size .2s;
-}
-
-span:link {
-  text-decoration: none;
-}
-
-span:hover {
-  background-size: 4px 50px;
-}
-*/
-
 
 .listed-docs{
   cursor:grab;

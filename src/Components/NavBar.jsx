@@ -27,13 +27,13 @@ function NavBar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav " />
           <Navbar.Collapse id="basic-navbar-nav " >
             <Nav className="mr-auto mx-auto  fontsize">
-              <Link className='nav-link mr-5 text-white navbar-home' to="/home">
+              <Link className='nav-link  text-white navbar-home' to="/home">
                 Home
           </Link>
-              <Link className='nav-link mr-5 text-white' to="/Categories">
+              <Link className='nav-link  text-white' to="/Categories">
                 Categories
           </Link>
-              <Link className='nav-link mr-5 text-white' to="/about">
+              <Link className='nav-link  text-white' to="/about">
                 About
             </Link>
               <Link className='nav-link text-white' to="/contact">
@@ -41,13 +41,18 @@ function NavBar() {
             </Link>
             </Nav>
             <div className="container">
-              <div className="search ml-5">
+              <div className="search ">
                 <input type="text" className="searchTerm" placeholder="What are you looking for?" />
                 <button type="submit" className="searchButton" >
                   <i className="fa fa-search fa-md"></i>
                 </button>
+                
+                <button className="translation-button">EN</button>
+                <button className="translation-button">TR</button>
+                
               </div>
             </div>
+            
           </Navbar.Collapse>
         </Navbar>
 
