@@ -2,7 +2,7 @@ import { React, useEffect, useState, useRef } from 'react'
 import Select from 'react-select'
 
 const options = [
-    { value: 'normal', label: 'By ID', isDescending: false },
+    { value: 'sort-id', label: 'By ID', isDescending: false },
     { value: 'sort-name', label: 'By Name', isDescending: false  },
     { value: 'sort-view', label: 'By View', isDescending: true  },
     { value: 'sort-like', label: 'By Like', isDescending: true  },
