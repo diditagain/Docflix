@@ -1,13 +1,33 @@
 import { React, useEffect, useState, useRef } from 'react'
 import Select from 'react-select'
 
-const options = [
-    { value: 'sort-id', label: 'By ID', isDescending: false },
-    { value: 'sort-name', label: 'By Name', isDescending: false  },
-    { value: 'sort-view', label: 'By View', isDescending: true  },
-    { value: 'sort-like', label: 'By Like', isDescending: true  },
-    { value: 'sort-comment', label: 'By Comment', isDescending: true  },
-];
+const tr = [{
+    "sortTypes": [
+        "Önerilen",
+        "İsme göre",
+        "İzlenmeye göre ",
+        "Beğeniye göre",
+        "Yorum sayısına göre"
+    ]
+}];
+
+const en = [{
+    "sortTypes": [
+        "Recommended",
+        "By Name",
+        "By View",
+        "By Like",
+        "By Comment"
+    ]
+}];
+
+// const options = [
+//     { value: 'sort-id', label: 'By ID', isDescending: false },
+//     { value: 'sort-name', label: 'By Name', isDescending: false  },
+//     { value: 'sort-view', label: 'By View', isDescending: true  },
+//     { value: 'sort-like', label: 'By Like', isDescending: true  },
+//     { value: 'sort-comment', label: 'By Comment', isDescending: true  },
+// ];
 
 const customStyles = {
     control: styles => (
@@ -19,7 +39,7 @@ const customStyles = {
             height: '30px',
             border: '0 !important',
             // This line disable the blue border
-            
+
             textAlign: 'center',
             boxShadow: '0 !important',
             '&:hover': {
@@ -73,7 +93,7 @@ const customStyles = {
         ...provided,
         paddingTop: 0,
         paddingBottom: 0,
-     }),
+    }),
     singleValue: base => ({
         fontSize: 14,
         marginBottom: 10,
@@ -86,14 +106,33 @@ const customStyles = {
 
 
 function SortingDropdown(props) {
-    
+
+    const [index,setIndex] = useState(0);
+    const [selectedSort,setSelectedSort] = useState();
+    const options = [
+        { value: 'sort-id', label: en[0].sortTypes[0], isDescending: false },
+        { value: 'sort-name', label: en[0].sortTypes[1], isDescending: false },
+        { value: 'sort-view', label: en[0].sortTypes[2], isDescending: true },
+        { value: 'sort-like', label: en[0].sortTypes[3], isDescending: true },
+        { value: 'sort-comment', label: en[0].sortTypes[4], isDescending: true },
+    ];
+
+    useEffect(() => {
+        setSelectedSort(options[index]);
+    },[]);
+
+
     const handleChange = (s) => {
-      props.change(s);
+        const i = options.indexOf(s);
+        setIndex(i);
+        setSelectedSort(options[i]);
+        props.change(s);
     }
-    
+
     const s = (<div className="mt-4" style={{ width: "200px" }}>
         <Select
-            defaultValue={options[0]}
+            defaultValue={options[index]}
+            value={selectedSort}
             label="Single select"
             options={options}
             isSearchable={false}
