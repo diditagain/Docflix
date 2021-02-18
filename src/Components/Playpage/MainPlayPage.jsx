@@ -17,7 +17,9 @@ function MainPlayPage() {
         <Row>
           <Col md={watchModeWidth} className={watchModeClasses}>
             <Player />
+            <Col>
             <Form.Switch style={{ width: '10rem' }} id='darkModeSwitch'/>
+            </Col>
           </Col>
           <Col className="mt-5 ml-0">
             <Col className="mt-3 ">
