@@ -1,19 +1,23 @@
 import React from "react";
 import "../App.css"
+import { useTranslation } from "react-i18next";
+import i18next from "../i18next";
 import IMGBRAND from "./docflix.png"
 import { Link } from "react-router-dom";
 import {
   Navbar,
   Nav,
-  Container,
-  Image,
-  Form,
-  Button,
-  NavDropdown,
-  FormControl,
-} from "react-bootstrap";
+  Image
+  } from "react-bootstrap";
 
 function NavBar() {
+
+  const { t } = useTranslation();
+
+  function handleClick(lang) {
+    i18next.changeLanguage(lang);
+  }
+
   return (
     <>
       
@@ -28,27 +32,27 @@ function NavBar() {
           <Navbar.Collapse id="basic-navbar-nav " >
             <Nav className="mr-auto mx-auto  fontsize fill">
               <Link className='nav-link  text-white navbar-home' to="/home">
-                Home
+               {t("Navbar.1")}
           </Link>
               <Link className='nav-link  text-white' to="/Categories">
-                Categories
+              {t("Navbar.2")}
           </Link>
               <Link className='nav-link  text-white' to="/about">
-                About
+              {t("Navbar.3")}
             </Link>
               <Link className='nav-link text-white' to="/contact">
-                Contact
+              {t("Navbar.4")}
             </Link>
             </Nav>
             <div className="container">
               <div className="search ">
-                <input type="text" className="searchTerm" placeholder="What are you looking for?" />
+                <input type="text" className="searchTerm" placeholder={t("Navbar.5")}/>
                 <button type="submit" className="searchButton" >
                   <i className="fa fa-search fa-md"></i>
                 </button>
                 
-                <button className="translation-button mr-1">EN</button>
-                <button className="translation-button">TR</button>
+                <button onClick={() => handleClick("en")} className="translation-button mr-1">EN</button>
+                <button onClick={() => handleClick("tr")} className="translation-button">TR</button>
                 
               </div>
             </div>

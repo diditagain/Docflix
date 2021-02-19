@@ -1,0 +1,31 @@
+{
+    "Navbar" :{
+        "1": "Anasayfa",
+        "2": "Kategoriler",
+        "3": "Hakkımızda",
+        "4": "İletişim",
+        "5": "Ne arıyorsun?"
+    },
+    "Footer" : {
+        "1": "% 100 ücretsiz belgesel filmlerin önde gelen kaynağı DocFlix'e hoş geldiniz. Hem eğitim amaçlı hem de kişisel eğlence için çevrimiçi olarak bulunan en iyi belgesel filmleri seçiyoruz.",
+        "2": "Menu",
+        "3": "Anasayfa",
+        "4": "Kategoriler",
+        "5": "İletişim",
+        "6": "Hakkımızda",
+        "7": "Kullanım Şartları",
+        "8": "İletişimde Kalın",
+        "9": "Belgesellerin gizli dünyasından ilham almaya devam edin."
+      },
+    "About":{
+        "1": "Proje Hakkında",
+        "2": "Projemizin Amacı :",
+        "3": "Bu çalışma, Kodluyoruz.org Adana Full Stack Web Geliştirme Kampı eğitiminin son görevidir. Bu projenin amacı eğitim sırasında öğrendiğimiz araçları etkin bir şekilde kullanarak bir uygulama geliştirmektir.",
+        "4": "Ne Kullandık? "
+    },
+    "Contact" :{
+        "1": "BİZİ KİMİZ ?"
+    }
+
+        
+    }

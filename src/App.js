@@ -2,6 +2,8 @@ import "./App.css";
 import "./index.css";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useTranslation } from "react-i18next";
+import i18next from "i18next";
 
 import MainHomepage from "./Components/Homepage/MainHomepage";
 import NavBar from "./Components/NavBar";

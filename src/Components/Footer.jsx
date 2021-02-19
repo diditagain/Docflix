@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useTranslation } from "react-i18next";
 import "../footerstyle.css";
 
 import IMGBRAND from "./docflix.png"
@@ -7,6 +8,8 @@ import IMGBRAND from "./docflix.png"
 import {Container , Image} from "react-bootstrap"
 
 function Footer() {
+  const { t } = useTranslation();
+
   return (
     <>
       <div className="mt-5 pt-5 pb-5 footer ">
@@ -17,36 +20,34 @@ function Footer() {
               <Image  src={IMGBRAND} ></Image>
               </div>
               <p className="pr-5 text-white-50">
-                Welcome to DocFlix, the leading source for 100% free documentary
-                films. We provide the best documentary films available online for
-                educational purposes as well as personal enjoyment.{" "}
+                {t("Footer.1")}
               </p>
             </div>
             <div className="col-lg-3 col-xs-12 links mt-5">
-              <h4 className="mt-lg-0 mt-sm-3 ">Menu</h4>
+              <h4 className="mt-lg-0 mt-sm-3 ">{t("Footer.2")}</h4>
               <ul className="m-0 p-0">
                 <li>
-                  - <a href="#">Home</a>
+                  - <a href="#">{t("Footer.3")}</a>
                 </li>
                 <li>
-                  - <a href="#">Categories</a>
+                  - <a href="#">{t("Footer.4")}</a>
                 </li>
                 <li>
-                  - <a href="#">Contact</a>
+                  - <a href="#">{t("Footer.5")}</a>
                 </li>
 
                 <li>
-                  - <a href="#">About</a>
+                  - <a href="#">{t("Footer.6")}</a>
                 </li>
                 <li>
-                  - <a href="#">Terms of Services</a>
+                  - <a href="#">{t("Footer.7")}</a>
                 </li>
               </ul>
             </div>
             <div className="col-lg-4 col-xs-12 location mt-5">
-              <h4 className="mt-lg-0 mt-sm-4">Stay Connected</h4>
+              <h4 className="mt-lg-0 mt-sm-4">{t("Footer.8")}</h4>
               <p classNameName="pr-5 text-white-50">
-                22, Lorem ipsum dolor, consectetur adipiscing
+              {t("Footer.9")}
               </p>
               <p >
                 <a href="#">
