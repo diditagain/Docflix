@@ -1,0 +1,25 @@
+.list-item:hover h2{
+    color:darkorange;
+}
+
+.item-cover{
+    position: relative;
+    color: white;
+    width: 150px;
+    height: 150px;
+}
+
+.item-cover img{
+    width: 150px;
+    height: 150px;
+    object-fit: fill;
+}
+
+.item-cover-time{
+    position: absolute;
+    bottom:0px;
+    right: 0px;
+    font-size: 12px;
+    background-color: rgb(24, 24, 24);
+    color: rgba(255, 255, 255, 0.9);
+}
