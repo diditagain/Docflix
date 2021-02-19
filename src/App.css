@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body {
+  background-color: #1B2021;
+  font-family: 'Inconsolata', monospace !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg{
+  background-color: #1B2021;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.txt-color{
+  color:#ffffff !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Navbar style*/
+.fontsize{
+
+  font-size: 1.4rem;
+}
+.navbar-home{
+  margin-left: 100px !important;
+}
+.img-height{
+  height: 50px !important;
+ }
+
+.navbar-height{
+  height: 50px;
+}
+.navbar-brand{
+  
+  margin-left: 70px;
+}
+
+
+.nav-link {
+  position: relative;
+  z-index: 1;
+  background-color: default;
+  transition : background-color 2s ;
+}
+.nav-link:hover{
+
+  color: #b3b1b1 !important; 
+  
+  background-color: #eaee15;
+}
+
+.nav-link:after{
+
+  display: block ;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: '';
+  color: rgb(122, 104, 104)  ;
+  /* background:  !important; */
+  /* transition: 2sn ease #f7d749; */
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+
+}
+
+.nav-link:hover:after{
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+
+/*search form styles*/
+
+.search {
+  width: 400px;
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 70px;
+}
+.search:focus{
+  color : none;
+}
+.searchTerm {
+  width: 210px;
+  /* border-bottom: 5px solid #a35d35; */
+  /* border-right: none; */
+  border : 0;
+  border-bottom: 1px solid #302f2f; ;
+  padding: 5px;
+  height: 28px;
+  border-radius: 0;
+  outline: none;
+  color: #9DBFAF;
+  background-color: transparent;
+  transition : width .35s ease-in-out;
 }
 
-.App-link {
-  color: #61dafb;
+.searchTerm:focus{
+  color:#a35d35;
+  width : 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.searchButton {
+  width: 40px;
+  height: 28px;
+  border: 0;
+  background: #1c2c2e;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.288);
+  border-radius: 0;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: transparent;
 }
+
+/* searchbutton end */
+/* translation button styles */
+.translation-button{
+  color : rgb(167, 159, 159);
+  font-weight: bold;
+  background-color : #415658;
+}
+
+.listed-docs{
+  cursor:grab;
+ 
+  box-shadow: #dbe0de;
+}
+.listed-docs:hover {
+ opacity: 0.6;
+}
+
+/* carousel dots style*/
+.slick-active button:before {
+  color:rgb(212, 0, 255) !important;
+  font-size:5px;
+}
+/* carousel dots style*/
