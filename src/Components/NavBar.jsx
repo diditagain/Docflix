@@ -26,7 +26,7 @@ function NavBar() {
 
           <Navbar.Toggle aria-controls="basic-navbar-nav " />
           <Navbar.Collapse id="basic-navbar-nav " >
-            <Nav className="mr-auto mx-auto  fontsize">
+            <Nav className="mr-auto mx-auto  fontsize fill">
               <Link className='nav-link  text-white navbar-home' to="/home">
                 Home
           </Link>
@@ -47,7 +47,7 @@ function NavBar() {
                   <i className="fa fa-search fa-md"></i>
                 </button>
                 
-                <button className="translation-button">EN</button>
+                <button className="translation-button mr-1">EN</button>
                 <button className="translation-button">TR</button>
                 
               </div>
