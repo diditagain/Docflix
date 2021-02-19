@@ -3,12 +3,15 @@ import "./index.css";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import Categories from './Components/Categories/Categories';
+import Documentaries from "./Components/DocumentaryList/Documentaries"
+
 import MainHomepage from "./Components/Homepage/MainHomepage";
 import NavBar from "./Components/NavBar";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
-import CategoriesMain from "./Components/Categories/CategoriesMain";
+//import CategoriesMain from "./Components/Categories/CategoriesMain";
 import MainPlayPage from './Components/Playpage/MainPlayPage'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -17,13 +20,13 @@ function App() {
     <div className="bg txt-color">
       
       <Router>
-      <NavBar />
+        <NavBar />
         <Switch>
           <Route path="/home">
             <MainHomepage />
           </Route>
           <Route path="/categories">
-            <CategoriesMain />
+            <Categories />
           </Route>
           <Route path="/about">
             <About />
@@ -33,9 +36,8 @@ function App() {
           </Route>
         </Switch>
       </Router>
-      
       <Footer/>
-    </div>
+   </div>
   );
 }
 
