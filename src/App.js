@@ -2,6 +2,7 @@ import "./App.css";
 import "./index.css";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import 'semantic-ui-css/semantic.min.css'
 
 import MainHomepage from "./Components/Homepage/MainHomepage";
 import NavBar from "./Components/NavBar";
