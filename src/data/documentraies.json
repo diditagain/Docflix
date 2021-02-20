@@ -155,7 +155,353 @@
         "category": "History",
         "img": "thumbnail",
         "url":"https://www.youtube.com/watch?v=mQ7CpDUaBYI" 
+    },
+    {
+        "id": 13,
+        "name": "The Russians",
+        "duration": "42:27",
+        "view": "1.521.962",
+        "like": "12k",
+        "comment": "2.099",
+        "description": "A very private trip through Russia - a world power with a shrinking population, a myriad of ethnic minorities, and vast distances, a country between tradtion and future. ",
+        "category": "Culture",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=qfuDZEQjro8" 
+    },
+    {
+        "id": 14,
+        "name": "Tribal Wives Babongo, Gabon",
+        "duration": "52:28",
+        "view": "63.068",
+        "like": "746",
+        "comment": "148",
+        "description": "In this documentary film you will certainly get an insight into life in rural Africa, which is quite difficult to experience for someone who has lived his or her whole life in the western world.",
+        "category": "Culture",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=vD1h6ObFrFU" 
+    },
+    {
+        "id": 15,
+        "name": "City of the Future: Singapore",
+        "duration": "44:24",
+        "view": "9.778.400",
+        "like": "92k",
+        "comment": "7.227",
+        "description": "With visionary thinkers and innovators as the guides, City of the Future: Singapore dives deep into the latest innovations and technology being created and implemented to blaze a path into the future.",
+        "category": "Culture",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=xi6r3hZe5Tg" 
+    },
+    {
+        "id": 16,
+        "name": "Superhuman Geniuses (Extraordinary People Documentary)",
+        "duration": "45:29",
+        "view": "6.048.376",
+        "like": "58k",
+        "comment": "7.625",
+        "description": "An entertaining mix of human interest stories and popular science, Super Genius explores people with incredible mental knowledge & strength.",
+        "category": "Culture",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=hsZPTVpNBNs" 
+    },
+    {
+        "id": 17,
+        "name": "Nomadic Tribes of the Sahara",
+        "duration": "55:31",
+        "view": "3.475.600",
+        "like": "17k",
+        "comment": "2.427",
+        "description": "In this documentary, we will travel to the heart of Western Sahara, the last remaining unexplored region of the great African desert. ",
+        "category": "Culture",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=hsZPTVpNBNs" 
+    },
+    {
+        "id": 18,
+        "name": "Vladimir Putin and His Game",
+        "duration": "59:30",
+        "view": "600.963",
+        "like": "2.8k",
+        "comment": "706",
+        "description": "Documentary revealing the story of Vladimir Putin's extraordinary rise to power - from a lowly KGB colonel to Boris Yeltsin's right-hand man and ultimately his successor.",
+        "category": "Politic",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=cOaTLgnTxbU" 
+    },
+    {
+        "id": 19,
+        "name": "Speeches That Changed The World",
+        "duration": "51:47",
+        "view": "26.689",
+        "like": "531",
+        "comment": "73",
+        "description": "Words and delivery can combine to galvanize an audience, creating 'I remember where I was when' moments. JFK- Brandenburg Gate and Martin Luther King - Lincoln Memorial provide unforgettable examples. This collection of classic speech excerpts contains inspiring orations to the noblest endeavors and some of the most despicable speeches ever. Hitler, Churchill, Hirohito, Gandhi, Nixon, Obama...",
+        "category": "Politic",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=GMmqfoJvbGA" 
+    },
+    {
+        "id": 20,
+        "name": "Netanyahu at War",
+        "duration": "1:54:01",
+        "view": "2.093.823",
+        "like": "18k",
+        "comment": "7.583",
+        "description": "An inside look at Israeli Prime Minister Benjamin Netanyahu’s political rise and his combative relationship with past U.S. presidents.",
+        "category": "Politic",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=7W-xxpXzAC0" 
+    },
+    {
+        "id": 21,
+        "name": "Four Horsemen",
+        "duration": "1:38:52",
+        "view": "9.182.854",
+        "like": "77k",
+        "comment": "10.413",
+        "description": "FOUR HORSEMEN is free from mainstream media propaganda -- the film doesn't bash bankers, criticise politicians or get involved in conspiracy theories. It ignites the debate about how to usher a new economic paradigm into the world which would dramatically improve the quality of life for billions.",
+        "category": "Politic",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=5fbvquHSPJU" 
+    },
+    {
+        "id": 22,
+        "name": "Hell, Snakes and Giants: The Madness Of Renaissance Art ",
+        "duration": "58:34",
+        "view": "129.488",
+        "like": "2.3k",
+        "comment": "172",
+        "description": "In the final episode Waldemar Januszczak looks at the surprising climax of the Renaissance as it spiralled into madness and distortion. This was a period full of war, confusion and darkness, which was captured perfectly in the art of Leonardo, Bosch, Arcimboldo, Palissy, the Italian Mannerists and El Greco.",
+        "category": "Art",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=RMWAKJerd7Q" 
+    },
+    {
+        "id": 23,
+        "name": "Abstract Expressionism: Miriam Beerman",
+        "duration": "49:20",
+        "view": "31.086",
+        "like": "651",
+        "comment": "72",
+        "description": "The film is a memorable profile of an artist who has elevated her empathy for the plight of the world’s castoffs into powerful portrayals of dignity.",
+        "category": "Art",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=SdYy6LoGXfc" 
+    },
+    {
+        "id": 24,
+        "name": "Botticelli — Dante's hell in art",
+        "duration": "42:25",
+        "view": "215.894",
+        "like": "2.3k",
+        "comment": "431",
+        "description": "Botticelli's paintings still fascinate people more than 500 years after his death. But the artist also had a dark side. He painted and drew hell as described by the poet Dante. The work was considered lost for centuries.",
+        "category": "Art",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=VLjOY7EmIUY&pbjreload=101" 
+    },
+    {
+        "id": 25,
+        "name": "ART. Not .ART",
+        "duration": "10:55",
+        "view": "86.336",
+        "like": "1.1k",
+        "comment": "233",
+        "description": "A Documentary explaining the controversial scene of Contemporary Art to whom do not see it as Art.",
+        "category": "Art",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=4WsGU5evtpE" 
+    },
+    {
+        "id": 26,
+        "name": "The Birth of Baroque",
+        "duration": "58:38",
+        "view": "214.379",
+        "like": "3.7k",
+        "comment": "230",
+        "description": "Series following art critic Waldemar Januszczak as he explores the Baroque tradition in many of its key locations. He begins at St Peter's in Rome and details the birth of Baroque.",
+        "category": "Art",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=5z2yUX5xiq0" 
+    },
+    {
+        "id": 27,
+        "name": "Prime Time: The Deion Sanders Story",
+        "duration": "42:28",
+        "view": "511.358",
+        "like": "4.7k",
+        "comment": "561",
+        "description": "Deion Luwynn Sanders Sr. (/ˈdiːɒn/; born August 9, 1967), nicknamed Prime Time and Neon Deion, is an American former professional football and baseball player who is a sports analyst. He played 14 seasons in the National Football League (NFL) with the Atlanta Falcons, San Francisco 49ers, Dallas Cowboys, Washington Redskins, and the Baltimore Ravens. He also had a part-time career in baseball as an outfielder for nine seasons in Major League Baseball (MLB), where he played professionally for the New York Yankees, the Atlanta Braves, the Cincinnati Reds, and the San Francisco Giants. Sanders won two Super Bowl titles and made one World Series appearance in 1992, making him the only individual to appear in both a Super Bowl and a World Series",
+        "category": "Sports",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=tDe21cb1YHQ" 
+    },
+    {
+        "id": 28,
+        "name": "Chasing Ten - Ironman Triathlon",
+        "duration": "17:51",
+        "view": "519.823",
+        "like": "6.3k",
+        "comment": "328",
+        "description": "Triathlon is a sport that requires endurance and dedication in order to succeed.  Adam is an amateur triathlete who is attempting to break the 10 hour mark in only his second ever full distance Ironman event. This documentary follows his lofty challenge and covers what it takes to try and break 10 hours over a 140.6 miles of swim, bike and run.",
+        "category": "Sports",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=kB52JVt7w0Y" 
+    },
+    {
+        "id": 29,
+        "name": "VICK: An Exclusive Bleacher Report Documentary",
+        "duration": "49:48",
+        "view": "1.055.773",
+        "like": "9.3k",
+        "comment": "1.728",
+        "description": "The exclusive Bleacher Report documentary on the rise and fall of Michael Vick.",
+        "category": "Sports",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=RdO8_IDiAm0" 
+    },
+    {
+        "id": 30,
+        "name": "Secret Life of Isaac Newton",
+        "duration": "53:12",
+        "view": "794.858",
+        "like": "7.9k",
+        "comment": "1.318",
+        "description": "Isaac Newton produced many works that would now be classified as occult studies. These works explored chronology, alchemy, and Biblical interpretation (especially of the Apocalypse). Newton's scientific work may have been of lesser personal importance to him, as he placed emphasis on rediscovering the occult wisdom of the ancients. In this sense, some[1] believe that any reference to a Newtonian Worldview as being purely mechanical in nature is somewhat inaccurate.",
+        "category": "Biography",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=s2YZN2L700Q" 
+    },
+    {
+        "id": 31,
+        "name": "Amazon Empire: The Rise and Reign of Jeff Bezos",
+        "duration": "1:53:16",
+        "view": "12.285.833",
+        "like": "106k",
+        "comment": "16.562",
+        "description": "An inside look at how Amazon CEO Jeff Bezos built one of the largest and most influential economic forces in the world — and the cost of Amazon’s convenience.",
+        "category": "Biography",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=RVVfJVj5z8s" 
+    },
+    {
+        "id": 32,
+        "name": "Bob Ross: The Happy Painter",
+        "duration": "1:04:16",
+        "view": "2.118.687 ",
+        "like": "43k",
+        "comment": "3.423",
+        "description": "This docu-story reveals the personal life of Bob Ross through the loving accounts of close friends and family, childhood photographs, rare archive footage - what you know: his unwavering dedication to wildlife for example, and what you don't know: Bob Ross' straight hair, his fascination with fast cars, and so much more.",
+        "category": "Biography",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=MCwGOMloBPk" 
+    },
+    {
+        "id": 33,
+        "name": "Adolf Hitler - Weimar republic, Beer Hall Putsch & Fuhrer of The Third Reich ",
+        "duration": "44:59",
+        "view": "279.321",
+        "like": "3k",
+        "comment": "268",
+        "description": "This docu-story reveals the secret of Adolf Hitler's life.",
+        "category": "Biography",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=Dd-gdHis6i4" 
+    },
+    {
+        "id": 34,
+        "name": "The Biggest Scientific Discoveries",
+        "duration": "51:30",
+        "view": "287.718",
+        "like": "3k",
+        "comment": "196",
+        "description": "",
+        "category": "Science",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=naNeSLofnW8" 
+    },
+    {
+        "id": 35,
+        "name": "Science Of The Soul",
+        "duration": "1:27:24",
+        "view": "5.344.525",
+        "like": "61k",
+        "comment": "13.956",
+        "description": "From robotics to near death experiences, from attempts to achieve altered states of consciousness in the jungles of Peru to an exploration of infant state of mind, Science of the Soul explores the cutting-edge of consciousness related science to determine whether we are about to experience a new step in human evolution or the death of the human soul.",
+        "category": "Science",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=S7SQoQj9868" 
+    },
+    {
+        "id": 36,
+        "name": "Better brain health",
+        "duration": "42:25",
+        "view": "9.951.809",
+        "like": "131k",
+        "comment": "7.410",
+        "description": "Chocolate reduces stress. Fish stimulates the brain. Is there any truth to such popular beliefs? The findings of researchers around the world say yes: It appears we really are what we eat.",
+        "category": "Science",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=TLpbfOJ4bJU" 
+    },
+    {
+        "id": 37,
+        "name": "Better brain health",
+        "duration": "58:55",
+        "view": "4.712.754",
+        "like": "41k",
+        "comment": "3.991",
+        "description": "Professor Jim Al-Khalili traces the story of arguably the most important, accurate and yet perplexing scientific theory ever: quantum physics.",
+        "category": "Science",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=ISdBAf-ysI0" 
+    },
+    {
+        "id": 38,
+        "name": "Train across Turkey: the Dogu Express",
+        "duration": "25:56",
+        "view": "396.263",
+        "like": "5.9k",
+        "comment": "898",
+        "description": "The Dogu Express travels across Turkey from Ankara to Kars. During the nostalgic journey, the train travels at about 70 kilometers an hour and needs a full day for the 1,310 kilometer trip. Young people especially are clamoring for tickets.",
+        "category": "Travel",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=2ISKILq5zoY" 
+    },
+    {
+        "id": 39,
+        "name": "Road Trip from BC to Alaska",
+        "duration": "43:44",
+        "view": "617.700",
+        "like": "4.2k",
+        "comment": "247",
+        "description": "Are you ready for an Overlanding Road Trip trip through Canada and Alaska? ",
+        "category": "Travel",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=wYFKlfr-ELU" 
+    },
+    {
+        "id": 40,
+        "name": "Greece : Athens And The Islands",
+        "duration": "52:19",
+        "view": "390.808",
+        "like": "2.2k",
+        "comment": "212",
+        "description": "In addition to quite exceptional archaeological wealth, Athens is also a modern city. Proud of their beauty and a lifestyle protected, amongst other factors, by distance, the Greek islands each have their own personality. Crossing the Aegean sea, the film takes the viewer deep inside a lifestyle of exceptional quality. Brushing aside the clichés, Pierre Brouwers and his superb camerawork give a wonderful insight into eternal Greece, a fascinating backdrop to the country’s evolution into the modern era. ",
+        "category": "Travel",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=KEWRNgiLCuI" 
     }
+
+
+
+
+
+
+
+
+
+
 
 
 ]
