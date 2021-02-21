@@ -3,6 +3,7 @@ import '../../category.css'
 import { Container, Row, Col } from "react-bootstrap"
 import CategoryCard from "./CategoryCard"
 
+
 const categories = [
     {
         name: "Science",
@@ -47,7 +48,7 @@ const categories = [
 ]
 
 function Categories(props) {
-
+    
     const cards = categories.map((item, index) => {
         return (
             <CategoryCard item={item}></CategoryCard>

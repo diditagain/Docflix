@@ -1,6 +1,7 @@
 import { React, useEffect, useState, useRef } from 'react'
 import ListItems from "./ListItems"
 import SortingDropdown from "./SortingDropdown"
+import { Container, Row, Col } from "react-bootstrap"
 
 
 function Documentaries() {
@@ -13,10 +14,10 @@ function Documentaries() {
     }
 
     return (
-        <>
+        <Container>
             <SortingDropdown change={handleDropdownChanges}></SortingDropdown>
             <ListItems alg={selectedSort}></ListItems>
-        </>
+        </Container>
     );
 
 }

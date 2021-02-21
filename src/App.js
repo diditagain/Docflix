@@ -14,15 +14,25 @@ import Footer from "./Components/Footer";
 //import CategoriesMain from "./Components/Categories/CategoriesMain";
 import MainPlayPage from './Components/Playpage/MainPlayPage'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {routers} from './Components/data/router';
+
+
 
 function App() {
+
+  const routeMaps = routers.map((item, index) =>
+    <Route path={item.link} exact={item.isExact} component={item.component} />
+  );
+
+
   return (
     <div className="bg txt-color">
-      
+
       <Router>
         <NavBar />
         <Switch>
-          <Route path="/home">
+          {routeMaps}
+          {/* <Route path="/home">
             <MainHomepage />
           </Route>
           <Route path="/categories">
@@ -33,15 +43,15 @@ function App() {
           </Route>
           <Route path="/contact">
             <Contact />
-          </Route>
+          </Route> */}
         </Switch>
       </Router>
-      <Footer/>
-   </div>
+      <Footer />
+    </div>
   );
 }
 
-export default App;  
+export default App;
 
 
 
