@@ -46,7 +46,7 @@
         "description": "Charting the rise of the 1990's Chicago Bulls, led by Michael Jordan, one of the most notable dynasties in sports history.",
         "category": "Sport",
         "img": "thumbnail",
-        "url":"https://www.youtube.com/watch?v=ADqUEYYkbrY" 
+        "url":"https://www.youtube.com/watch?v=BobdJvDcOKU" 
     },
     {
         "id": 5,
@@ -70,7 +70,7 @@
         "description": "A filmmaker forges an unusual friendship with an octopus living in a South African kelp forest, learning as the animal shares the mysteries of her world.",
         "category": "Wild Nature",
         "img": "thumbnail",
-        "url":"https://www.youtube.com/watch?v=UkoboFsY9_g" 
+        "url":"https://www.youtube.com/watch?v=3s0LTDhqe5A" 
     },
     {
         "id": 7,
@@ -94,7 +94,7 @@
         "description": "Investigators and witnesses recall how a modern-day Jack the Ripper terrorized the north of England during the late 1970s.",
         "category": "Crime",
         "img": "thumbnail",
-        "url":"https://www.youtube.com/watch?v=LcFtS9wpoF0" 
+        "url":"https://www.youtube.com/watch?v=RlHX-cNoE7k" 
     },
     {
         "id": 9,
@@ -130,19 +130,7 @@
         "description": "Docuseries following the FIA Formula One World Championship across multiple seasons.",
         "category": "History",
         "img": "thumbnail",
-        "url":"https://www.youtube.com/watch?v=mQ7CpDUaBYI" 
-    },
-    {
-        "id": 12,
-        "name": "Formula 1: Drive to Survive",
-        "duration": "40min",
-        "view": "501.158",
-        "like": "4k",
-        "comment": "19.632",
-        "description": "Docuseries following the FIA Formula One World Championship across multiple seasons.",
-        "category": "History",
-        "img": "thumbnail",
-        "url":"https://www.youtube.com/watch?v=mQ7CpDUaBYI" 
+        "url":"https://www.youtube.com/watch?v=YteGh1KEUZU" 
     },
     {
         "id": 12,
@@ -446,7 +434,7 @@
     },
     {
         "id": 37,
-        "name": "Better brain health",
+        "name": "The Secrets Of Quantum Physics with Jim Al-Khalili ",
         "duration": "58:55",
         "view": "4.712.754",
         "like": "41k",
@@ -491,6 +479,222 @@
         "category": "Travel",
         "img": "thumbnail",
         "url":"https://www.youtube.com/watch?v=KEWRNgiLCuI" 
+    },
+    {
+        "id": 41,
+        "name": "Sweden",
+        "duration": "23:02",
+        "view": "138.649",
+        "like": "22k",
+        "comment": "6.772",
+        "description": "Ade Adepitan’s in Sweden,  where its capital city Stockholm has plans to become the most futuristic and high-tech city in the world.  Ade will meet the world’s first people using microchips under the skin as train tickets. And he’ll travel over 100 miles above the Arctic Circle to overnight in freezing temperatures. And Carmen Roberts is in Japan facing her food fears as she takes on her latest taste challenge.",
+        "category": "travel",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=RW0QOu4hLug"
+    },
+    {
+        "id": 42,
+        "name": "Train across Turkey: the Dogu Express",
+        "duration": "25:56",
+        "view": "395.612",
+        "like": "5.9k",
+        "comment": "896",
+        "description": "The Dogu Express travels across Turkey from Ankara to Kars. During the nostalgic journey, the train travels at about 70 kilometers an hour and needs a full day for the 1,310 kilometer trip. Young people especially are clamoring for tickets.A ticket costs less than 10 euros - but because they're in short supply - bootleg fares can be more than sixteen times that price. Sometimes it takes months to get a ticket. Almost 300,000 people use the train annually. This documentary joins young devotees of the Dogu, who prefer it to low-cost airlines. They say they make the journey to slow down. The young couple, Melve and Atalay, are no exception: They booked the trip to spend quality time with one another. Conductor Hüseyin Celik has been working the route for many years and still loves his job, and the views of the beautiful landscapes the train travels through.",
+        "category": "travel",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=2ISKILq5zoY"
+    },
+    {
+        "id": 43,
+        "name": "West England",
+        "duration": "25:01",
+        "view": "9.965.468",
+        "like": "147k",
+        "comment": "9.276",
+        "description": "The quintessence of charming England is the “West Country”: quaint Cotswold villages with their fine churches, manor homes, and gastropubs; Wells, England’s smallest cathedral town; and the New Age capital of Glastonbury, with its legends of the Holy Grail and King Arthur. We'll finish by pondering the dramatic prehistoric stone circles of Stonehenge and Avebury.",
+        "category": "travel",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=lEgPVrSZa6w"
+    },
+    {
+        "id": 44,
+        "name": "Deadliest Roads | Nepal",
+        "duration": "51:21",
+        "view": "8.009.854",
+        "like": "36k",
+        "comment": "2.875",
+        "description": "Far from any tourist hubs; the inhabitants of the Gorkha region fight against the perils of monsoon season. Trucks and mule caravans strive tirelessly to provide for the cut-off villages. The monsoon forms mud ditches which trap vehicles and don't release them without a fight. The Shaman witch doctors are always on hand to chase away bad spirits and watch over the meager population of Nepal.",
+        "category": "travel",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=3QWatKc-8JE"
+    },
+    {
+        "id": 45,
+        "name": "Uganda",
+        "duration": "51:21",
+        "view": "134.288",
+        "like": "720",
+        "comment": "136",
+        "description": "An adventure in the deepest heart of Africa. 21 improbable characters, 7 4x4s and 1 mechanic travelling around on the bumpy and dusty Ugandan roads. An incredible journey to reach one of the remotest place in the World: the Bwindi Impenetrable Forest where the last Mountain Gorilla are still living.",
+        "category": "travel",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=Wq9aYdOOi2E"
+    },
+    {
+        "id": 46,
+        "name": "The Greatest Apex Predators on Earth",
+        "duration": "37:39",
+        "view": "1.446.476",
+        "like": "5,9k",
+        "comment": "345",
+        "description": "An apex predator, also known as an alpha predator or apical predator, is a predator residing at the top of a food chain upon which no other creatures prey.  Apex predators are usually defined in terms of trophic dynamics, meaning that apex-predator species occupy the highest trophic level or levels and play a crucial role in maintaining the health of their ecosystems. One study of marine food webs defined apex predators as greater than trophic level four. The apex predator concept is commonly applied in wildlife management, conservation and ecotourism.",
+        "category": "wild nature",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=X0tkj1pAiuk"
+    },
+    {
+        "id": 47,
+        "name": "A Man Among Orcas",
+        "duration": "52:33",
+        "view": "5.077.656",
+        "like": "39k",
+        "comment": "3.732",
+        "description": "Enduring raging winds and icy waters with minimal protection, he enters the intimacy of elephant seals and orcas using clever ethological analyses and gets them used to his presence. Then comes the extraordinary: meet a man who communicates with penguins with body language, calms young seals and turns them into live pillows, lies underwater with 8 ton orcas or mature male seals.",
+        "category": "wild nature",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=uW9mcG0rdLY"
+    },
+    {
+        "id":48,
+        "name": "Secret Brazil: Jaguar, the king of the Pantanal",
+        "duration": "47:59",
+        "view": "3.844.667",
+        "like": "13k",
+        "comment": "715",
+        "description": "Pantanal is the largest wetland on the planet. Located in the heart of Brazil - South of the Amazon Basin - this nature heaven spreads it’s area across the borders of Paraguay and Bolivia. Year after year the arrival of heavy rains brings an incredible metamorphosis to this land, transforming it in an astonishing underwater realm inhabited by a surprising array of aquatic creatures. Lawrence Wahba and Haroldo Palo Jr, two Brazilian wild life cinematographers embark on a journey to film how these creatures survive the challenge of living in an ever-changing environment that dries every year and the dramatic milestones of their lives.",
+        "category": "wild nature",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=AL_3OsEsnQc"
+    },
+    {
+        "id": 49,
+        "name": "Mountains",
+        "duration": "47:22",
+        "view": "7.110.991",
+        "like": "42k",
+        "comment": "2.293",
+        "description": "The highest mountains on Earth are home to snow leopards, golden eagles, mountain goats, barnacle goslings and gelada monkeys. But only the toughest can endure the extreme weather, scarce food and limited oxygen on these peaks. Using new technology to showcase never-before-filmed animal behavior, Hostile Planet provides unique access to one of the most extreme environments on the planet.",
+        "category": "wild nature",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=NcRifDitRnU"
+    },
+    {
+        "id": 50,
+        "name": "Wildlife Laws: The Better Hunter Wins",
+        "duration": "50:00",
+        "view": "2.114.601",
+        "like": "6.5k",
+        "comment": "284",
+        "description": "Baby animals beguile with their innocent charm. But while some remain harmless, others have a deep-rooted instinct. It may take weeks or months of training to hone their skills, but in every corner of the globe predators emerge. Their landscapes and lifestyles maybe very different, but these babies are born to hunt.",
+        "category": "wild nature",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=iQnvNd6wTj4"
+    },
+    {
+        "id": 51,
+        "name": "Casanova Killer",
+        "duration": "46:02",
+        "view": "1.896.584",
+        "like": "12k",
+        "comment": "2.816",
+        "description": "Paul John Knowles is the “Casanova Killer.” His devilish smirk, charming demeanor and flowing whiskey-colored hair helped mask his deadly secret: he’s one of the most notorious serial killers in history.",
+        "category": "crime",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=kaeRLHJidOo"
+    },
+    {
+        "id": 52,
+        "name": "Zodiac Killer",
+        "duration": "43:58",
+        "view": "232.878",
+        "like": "626",
+        "comment": "358",
+        "description": "The 40 year mystery as to the identity of the 'Zodiak Killer' has been replete with exclusive revelations, false identities, Hollywood movies and countless conspiracy theories.",
+        "category": "crime",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=TFp9s3cwkms"
+    },
+    {
+        "id": 53,
+        "name": "Edmund Kemper",
+        "duration": "45:08",
+        "view": "2.172.282",
+        "like": "14k",
+        "comment": "3.395",
+        "description": "Serial killer Edmund Kemper claimed the lives of female students (earning the moniker of Co-ed Butcher) before finally targeting his abusive mother and confessing. Played by Cameron Britton in Netflix crime drama television series Mindhunter, Edmund Emil Kemper III (born December 18, 1948) is an American serial killer and necrophile who murdered ten people, including his paternal grandparents and mother. He is noted for his large size, at 6 feet 9 inches (2.06 m), and for his high intellect, possessing an IQ of 145.",
+        "category": "crime",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=56lH5C2Pu7g"
+    },
+    {
+        "id": 54,
+        "name": "Shreds Of Evidence",
+        "duration": "52:34",
+        "view": "835.947",
+        "like": "3.2k",
+        "comment": "502",
+        "description": "Hair and fiber evidence helps unravel the crimes of Wayne Williams, and solve the cases of Lisa Garland and Michael Mannella. Join forensics experts and criminal investigators to solve the case.",
+        "category": "crime",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=U18y8BM3Vho"
+    },
+    {
+        "id": 55,
+        "name": "Bill Murray",
+        "duration": "51:33",
+        "view": "29.388",
+        "like": "237",
+        "comment": "23",
+        "description": "Bill Murray is an American actor, comedian, and writer. The fifth of nine children, he was born William James Murray in Wilmette, Illinois, to Lucille (Collins).",
+        "category": "biography",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=ap6McCYbkLg"
+    },
+    {
+        "id": 56,
+        "name": "The Kennedy Legacy",
+        "duration": "48:45",
+        "view": "24.008",
+        "like": "210",
+        "comment": "23",
+        "description": "The lives of Kennedy family members, noted for their extraordinary accomplishments, have also been marked by tragedy. The family suffered numerous tragedies known as “the Kennedy curse”, including the assassination of brothers President John Kennedy and Senator Robert Kennedy, the controversial Chappaquiddick incident, and four airplane crashes. The death of Sen. Edward M. Kennedy was the final curtain not just on one man’s career but on a five-decade docudrama in which the triumphs and tragedies of a single family seized the public imagination and influenced American political life.",
+        "category": "biography",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=ADz0yGHujzQ"
+    },
+    {
+        "id": 57,
+        "name": "Steve Jobs",
+        "duration": "46:53",
+        "view": "337.506",
+        "like": "3.2k",
+        "comment": "225",
+        "description": "Steve Jobs, the American businessman and technology visionary who is best known as the co-founder, chairman, and chief executive officer of Apple Inc, was born on February 24, 1955. His parents were two University of Wisconsin graduate students, Joanne Carole Schieble and Syrian-born Abdulfattah Jandali. They were both unmarried at the time. Jandali, who was teaching in Wisconsin when Steve was born, said he had no choice but to put the baby up for adoption because his girlfriend's family objected to their relationship.",
+        "category": "biography",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=s1dR0ooLyDo"
+    },
+    {
+        "id": 58,
+        "name": "Malcolm X",
+        "duration": "46:34",
+        "view": "325.410",
+        "like": "4.5k",
+        "comment": "687",
+        "description": "Malcolm X (born Malcolm Little; May 19, 1925 – February 21, 1965) was an African American Muslim minister and human rights activist who was a popular figure during the civil rights movement. He is best known for his time spent as a vocal spokesman for the Nation of Islam.",
+        "category": "biography",
+        "img": "thumbnail",
+        "url":"https://www.youtube.com/watch?v=-fPo8kX-CFM"
     }
 
 
