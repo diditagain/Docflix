@@ -4,6 +4,7 @@ import Documentaries from "../DocumentaryList/Documentaries"
 import MainHomepage from "../Homepage/MainHomepage";
 import About from "../About";
 import Contact from "../Contact";
+import SearchPage from "../Search/SearchPage";
 
 export const routers = [
     { link: "/", title: "Home", component: MainHomepage, isExact: true, isLink: true },
@@ -12,4 +13,5 @@ export const routers = [
     { link: "/categories/:categoryID", title: "Documentaries", component: Documentaries, isExact: false, isLink: false },
     { link: "/about", title: "About", component: About, isExact: false, isLink: true },
     { link: "/contact", title: "Contact", component: Contact, isExact: false, isLink: true },
+    { link: "/search", title: "Search", component: SearchPage, isExact: false, isLink: true },
 ];
