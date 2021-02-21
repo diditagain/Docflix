@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import "./sliderstyle.css"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import dataSet from "../../data/documentraies.jsx"
 
 export default class CenterMode extends Component {
   render() {
@@ -55,47 +56,47 @@ export default class CenterMode extends Component {
         <hr color="white" />
         <Slider {...settings} >
           <div className="container listed-docs" >
-            <img src="https://picsum.photos/id/237/200/100" alt="" />
+            <img src={dataSet[0].img} alt="" />
             <div className="overlay"></div>
             <div className="button"><a href="#">WATCH</a></div>
           </div>
           <div className="container listed-docs" >
-            <img src="https://picsum.photos/id/237/200/100" alt="" />
+            <img src={dataSet[52].img} alt="" />
             <div className="overlay"></div>
             <div className="button"><a href="#">WATCH</a></div>
           </div>
           <div className="container listed-docs" >
-            <img src="https://picsum.photos/id/237/200/100" alt="" />
+            <img src={dataSet[56].img} alt="" />
             <div className="overlay"></div>
             <div className="button"><a href="#">WATCH</a></div>
           </div>
           <div className="container listed-docs" >
-            <img src="https://picsum.photos/id/237/200/100" alt="" />
+            <img src={dataSet[28].img} alt="" />
             <div className="overlay"></div>
             <div className="button"><a href="#">WATCH</a></div>
           </div>
           <div className="container listed-docs" >
-            <img src="https://picsum.photos/id/237/200/100" alt="" />
+            <img src={dataSet[23].img} alt="" />
             <div className="overlay"></div>
             <div className="button"><a href="#">WATCH</a></div>
           </div>
           <div className="container listed-docs" >
-            <img src="https://picsum.photos/id/237/200/100" alt="" />
+            <img src={dataSet[32].img} alt="" />
             <div className="overlay"></div>
             <div className="button"><a href="#">WATCH</a></div>
           </div>
           <div className="container listed-docs" >
-            <img src="https://picsum.photos/id/237/200/100" alt="" />
+            <img src={dataSet[37].img} alt="" />
             <div className="overlay"></div>
             <div className="button"><a href="#">WATCH</a></div>
           </div>
           <div className="container listed-docs" >
-            <img src="https://picsum.photos/id/237/200/100" alt="" />
+            <img src={dataSet[33].img} alt="" />
             <div className="overlay"></div>
             <div className="button"><a href="#">WATCH</a></div>
           </div>
           <div className="container listed-docs" >
-            <img src="https://picsum.photos/id/237/200/100" alt="" />
+            <img src={dataSet[30].img} alt="" />
             <div className="overlay"></div>
             <div className="button"><a href="#">WATCH</a></div>
           </div>

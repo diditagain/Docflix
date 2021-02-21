@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css"
 import Slider from "react-slick";
-import "../../App.css"
+import "./sliderstyle.css"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import dataSet from "../../data/documentraies.jsx"
 
 export default class CenterMode extends Component {
   render() {
@@ -21,32 +22,50 @@ export default class CenterMode extends Component {
         <h2 className="mt-5">Trending Documentaries</h2>
         <hr color="white"/>
         <Slider {...settings} >
-        <div className="listed-docs">
-          <img src="https://picsum.photos/id/239/200/100" alt=""/>
+        <div className="container listed-docs" >
+            <img src={dataSet[15].img} alt="" />
+            <div className="overlay"></div>
+            <div className="button"><a href="#">WATCH</a></div>
           </div>
-          <div className="listed-docs">
-          <img src="https://picsum.photos/id/239/200/100" alt=""/>
+          <div className="container listed-docs" >
+            <img src={dataSet[16].img} alt="" />
+            <div className="overlay"></div>
+            <div className="button"><a href="#">WATCH</a></div>
           </div>
-          <div className="listed-docs">
-          <img src="https://picsum.photos/id/239/200/100" alt=""/>
+          <div className="container listed-docs" >
+            <img src={dataSet[17].img} alt="" />
+            <div className="overlay"></div>
+            <div className="button"><a href="#">WATCH</a></div>
           </div>
-          <div className="listed-docs">
-          <img src="https://picsum.photos/id/239/200/100" alt=""/>
+          <div className="container listed-docs" >
+            <img src={dataSet[18].img} alt="" />
+            <div className="overlay"></div>
+            <div className="button"><a href="#">WATCH</a></div>
           </div>
-          <div className="listed-docs">
-          <img src="https://picsum.photos/id/239/200/100" alt=""/>
+          <div className="container listed-docs" >
+            <img src={dataSet[19].img} alt="" />
+            <div className="overlay"></div>
+            <div className="button"><a href="#">WATCH</a></div>
           </div>
-          <div className="listed-docs">
-          <img src="https://picsum.photos/id/239/200/100" alt=""/>
+          <div className="container listed-docs" >
+            <img src={dataSet[20].img} alt="" />
+            <div className="overlay"></div>
+            <div className="button"><a href="#">WATCH</a></div>
           </div>
-          <div className="listed-docs">
-          <img src="https://picsum.photos/id/239/200/100" alt=""/>
+          <div className="container listed-docs" >
+            <img src={dataSet[21].img} alt="" />
+            <div className="overlay"></div>
+            <div className="button"><a href="#">WATCH</a></div>
           </div>
-          <div className="listed-docs">
-          <img src="https://picsum.photos/id/239/200/100" alt=""/>
+          <div className="container listed-docs" >
+            <img src={dataSet[22].img} alt="" />
+            <div className="overlay"></div>
+            <div className="button"><a href="#">WATCH</a></div>
           </div>
-          <div className="listed-docs">
-          <img src="https://picsum.photos/id/239/200/100" alt=""/>
+          <div className="container listed-docs" >
+            <img src={dataSet[23].img} alt="" />
+            <div className="overlay"></div>
+            <div className="button"><a href="#">WATCH</a></div>
           </div>
         </Slider>
       </div>
