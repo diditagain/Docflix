@@ -6,15 +6,24 @@ import '../../documentarylist.css';
 
 
 function sortBy(field, isDescending) {
+
+
     return function(a,b){
+        let x = a[field]
+        let y = b[field];
+        if(!isNaN(a[field]) && !isNaN(b[field])){
+            x = Number(a[field]);
+            y = Number(b[field]);
+        }
+        
         if (isDescending != true) {
-            if (a[field] < b[field]) { return -1; }
-            if (a[field] > b[field]) { return 1; }
+            if (x < y) { return -1; }
+            if (x > y) { return 1; }
             return 0;
         }
         else {
-            if (a[field] > b[field]) { return -1; }
-            if (a[field] < b[field]) { return 1; }
+            if (x > y) { return -1; }
+            if (x < y) { return 1; }
             return 0;
         }
     }
@@ -38,7 +47,7 @@ function ListItems(props) {
     }
 
     useEffect(() => {
-        // setListItems(props.searchResult);
+        setListItems(props.searchResult);
         updateList();
     }, [props.alg, listItems])
 

@@ -1,3 +1,7 @@
+/* * {
+	outline: 1px solid red;
+} */
+
 .list-item:hover h2{
     color:darkorange;
 }

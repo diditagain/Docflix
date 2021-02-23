@@ -9,6 +9,7 @@ import {
 } from 'react-router-dom';
 
 function CategoryCard(props) {
+
     let { url } = useRouteMatch();
     const item = props.item;
     return (
@@ -17,7 +18,7 @@ function CategoryCard(props) {
         }}>
             <Link to={`${url}/${item.name.toLowerCase()}`}>
                 <div className="imgBx">
-                    <img src="https://picsum.photos/id/789/200/300" alt="images" />
+                    <img src={item.img} alt="images" />
                 </div>
                 <div className="details">
                     <h2>{item.name}</h2>
