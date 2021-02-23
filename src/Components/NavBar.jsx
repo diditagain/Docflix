@@ -8,8 +8,11 @@ import Search from "../Components/Search/Search"
 import {
   Navbar,
   Nav,
-  Image
-  } from "react-bootstrap";
+  Image,
+  Container,
+  Row,
+  Col,
+} from "react-bootstrap";
 
 function NavBar() {
 
@@ -22,38 +25,50 @@ function NavBar() {
   return (
     <>
 
-      <Navbar className="navbar-height" bg="dark" expand="lg">
-        <Navbar.Brand className="navbar-brand">
+      <Navbar className="navbar-height mb-5" bg="dark" expand="lg">
+        <Navbar.Brand className="">
           <Link to="/home">
-            <Image fluid className="img-height" src={IMGBRAND}></Image>
+            <Image className="" src={IMGBRAND} style={{width:"100px",}}></Image>
           </Link>
         </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Container>
+          <Row>
+            <Col>
+              
+              <Navbar.Collapse id="basic-navbar-nav" >
+                <Nav className="mx-auto fontsize fill">
+                  <Link className='nav-link  text-white navbar-home' to="/home">
+                    {t("Navbar.1")}
+                  </Link>
+                  <Link className='nav-link  text-white' to="/Categories">
+                    {t("Navbar.2")}
+                  </Link>
+                  <Link className='nav-link  text-white' to="/about">
+                    {t("Navbar.3")}
+                  </Link>
+                  <Link className='nav-link text-white' to="/contact">
+                    {t("Navbar.4")}
+                  </Link>
+                </Nav>
+              </Navbar.Collapse>
+            </Col>
+          </Row>
+        </Container>
 
-          <Navbar.Toggle aria-controls="basic-navbar-nav " />
-          <Navbar.Collapse id="basic-navbar-nav " >
-            <Nav className="mr-auto mx-auto  fontsize fill">
-              <Link className='nav-link  text-white navbar-home' to="/home">
-               {t("Navbar.1")}
-          </Link>
-              <Link className='nav-link  text-white' to="/Categories">
-              {t("Navbar.2")}
-          </Link>
-              <Link className='nav-link  text-white' to="/about">
-              {t("Navbar.3")}
-            </Link>
-              <Link className='nav-link text-white' to="/contact">
-              {t("Navbar.4")}
-            </Link>
-            </Nav>
-            <div className="container">
-              <Search/>
-                
-                <button onClick={() => handleClick("en")} className="translation-button mr-1">EN</button>
-                <button onClick={() => handleClick("tr")} className="translation-button">TR</button>
-            </div>
-            
-          </Navbar.Collapse>
-        </Navbar>
+        <Container className="d-flex flex-row-reverse">
+          <Row>
+            <Col><Search /></Col>
+            <Col>
+              <button onClick={() => handleClick("en")} className="translation-button mr-1">EN</button>
+              <button onClick={() => handleClick("tr")} className="translation-button">TR</button>
+            </Col>
+          </Row>
+
+
+        </Container>
+
+      </Navbar>
 
 
     </>

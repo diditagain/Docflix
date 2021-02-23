@@ -16,7 +16,7 @@ function CategoryCard(props) {
         <div className="custom-card" onClick={() => {
             console.log("category card clicked!");
         }}>
-            <Link to={`${url}/${item.name.toLowerCase()}`}>
+            <Link to={`${url}/${item.url}`}>
                 <div className="imgBx">
                     <img src={item.img} alt="images" />
                 </div>
