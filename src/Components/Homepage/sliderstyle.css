@@ -29,7 +29,7 @@
 .button {
     
     position : absolute;
-    top : 35px !important;
+    top : 55px !important;
     left : 45px !important;
     text-align: center;
     opacity: 0;
@@ -49,3 +49,7 @@
     opacity: 1;
   }
    
+.listed-docs img {
+  width: 200px;
+  height: 130px;
+}

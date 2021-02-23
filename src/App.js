@@ -5,43 +5,55 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
 
+import Categories from './Components/Categories/Categories';
+import Documentaries from "./Components/DocumentaryList/Documentaries"
+
 import MainHomepage from "./Components/Homepage/MainHomepage";
 import NavBar from "./Components/NavBar";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
-import CategoriesMain from "./Components/Categories/CategoriesMain";
+//import CategoriesMain from "./Components/Categories/CategoriesMain";
 import MainPlayPage from './Components/Playpage/MainPlayPage'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {routers} from './Components/data/router';
+
+
 
 function App() {
+
+  const routeMaps = routers.map((item, index) =>
+    <Route path={item.link} exact={item.isExact} component={item.component} />
+  );
+
+
   return (
     <div className="bg txt-color">
-      
+
       <Router>
-      <NavBar />
+        <NavBar />
         <Switch>
-          <Route path="/home">
+          {routeMaps}
+          {/* <Route path="/home">
             <MainHomepage />
           </Route>
           <Route path="/categories">
-            <CategoriesMain />
+            <Categories />
           </Route>
           <Route path="/about">
             <About />
           </Route>
           <Route path="/contact">
             <Contact />
-          </Route>
+          </Route> */}
         </Switch>
       </Router>
-      
-      <Footer/>
+      <Footer />
     </div>
   );
 }
 
-export default App;  
+export default App;
 
 
 

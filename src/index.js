@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './App.css';
 import App from './App';
 import i18next from "i18next";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -12,5 +14,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-

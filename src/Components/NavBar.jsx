@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import i18next from "../i18next";
 import IMGBRAND from "./docflix.png"
 import { Link } from "react-router-dom";
+import Search from "../Components/Search/Search"
 import {
   Navbar,
   Nav,
@@ -20,13 +21,13 @@ function NavBar() {
 
   return (
     <>
-      
-        <Navbar className="navbar-height" bg="dark" expand="lg">
-          <Navbar.Brand className="navbar-brand">
-            <Link to="/home">
+
+      <Navbar className="navbar-height" bg="dark" expand="lg">
+        <Navbar.Brand className="navbar-brand">
+          <Link to="/home">
             <Image fluid className="img-height" src={IMGBRAND}></Image>
-            </Link>
-          </Navbar.Brand>
+          </Link>
+        </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav " />
           <Navbar.Collapse id="basic-navbar-nav " >
@@ -45,22 +46,16 @@ function NavBar() {
             </Link>
             </Nav>
             <div className="container">
-              <div className="search ">
-                <input type="text" className="searchTerm" placeholder={t("Navbar.5")}/>
-                <button type="submit" className="searchButton" >
-                  <i className="fa fa-search fa-md"></i>
-                </button>
+              <Search/>
                 
                 <button onClick={() => handleClick("en")} className="translation-button mr-1">EN</button>
                 <button onClick={() => handleClick("tr")} className="translation-button">TR</button>
-                
-              </div>
             </div>
             
           </Navbar.Collapse>
         </Navbar>
 
-     
+
     </>
   );
 }
