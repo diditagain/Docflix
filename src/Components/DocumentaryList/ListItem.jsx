@@ -12,13 +12,13 @@ function ListItem(props) {
         }}>
             <Col xs={12} sm={12} md={12} lg={3} className="my-auto">
                 <div className="item-cover mx-auto">
-                    <Image fluid src="https://picsum.photos/id/444/200/300" className="d-block"></Image>
-                    <div className="item-cover-time">12:24</div>
+                    <Image fluid src={item.img} className="d-block"></Image>
+                    <div className="item-cover-time">{item.duration}</div>
                 </div>
 
             </Col>
             <Col md={12} lg={9}>
-                <h2 >{item.name}</h2>
+                <h2 className="text-center">{item.name}</h2>
                 <div className="w-75 bg-dark mx-auto" style={{ height: "2px" }}></div>
                 <Row className="my-2">
                     <Col sm={12} md={3} xl={2} className="my-2">
@@ -39,7 +39,7 @@ function ListItem(props) {
                     </Col>
                     <Col sm={12} md={9} xl={10} style={{ fontSize: '12px' }}>
                         <p className="mx-auto " >
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            {item.description}
                         </p>
                     </Col>
                 </Row>
