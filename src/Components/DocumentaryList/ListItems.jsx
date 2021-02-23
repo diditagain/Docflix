@@ -3,36 +3,7 @@ import { Container } from 'react-bootstrap'
 import ListItem from './ListItem'
 import '../../documentarylist.css';
 
-const items = [
-    {
-        id: 1,
-        name: 'ARoom 237',
-        view: '2,154,134',
-        like: '1,234',
-        comment: '34'
-    },
-    {
-        id: 2,
-        name: 'BRoom 237',
-        view: '3,154,134',
-        like: '2,234',
-        comment: '44'
-    },
-    {
-        id: 3,
-        name: 'DRoom 237',
-        view: '4,154,134',
-        like: '1,034',
-        comment: '54'
-    },
-    {
-        id: 4,
-        name: 'CRoom 237',
-        view: '4,254,134',
-        like: '6,234',
-        comment: '14'
-    },
-];
+
 
 function sortBy(field, isDescending) {
     return function(a,b){
@@ -54,6 +25,9 @@ function ListItems(props) {
     const [listItems, setListItems] = useState([]);
     const [viewList, setViewList] = useState([]);
 
+
+    const items = props.searchResult;
+    
     function changeList() {
 
         const lItems = listItems.map((item, index) => {
@@ -64,6 +38,7 @@ function ListItems(props) {
     }
 
     useEffect(() => {
+        // setListItems(props.searchResult);
         updateList();
     }, [props.alg, listItems])
 
