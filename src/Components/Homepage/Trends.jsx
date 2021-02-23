@@ -6,6 +6,25 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import dataSet from "../../data/documentraies.jsx"
 
+const imgData = [
+  dataSet[15].img,
+  dataSet[16].img,
+  dataSet[17].img,
+  dataSet[18].img,
+  dataSet[19].img,
+  dataSet[20].img,
+  dataSet[21].img,
+  dataSet[22].img,
+  dataSet[23].img
+] 
+
+const sliderImg = imgData.map((item,index) => (
+  <div className="container listed-docs" >
+            <img src={item} alt="" />
+            <div className="overlay"></div>
+            <div className="button"><a href="#">WATCH</a></div>
+          </div>
+))
 export default class CenterMode extends Component {
   render() {
     const settings = {
@@ -22,51 +41,7 @@ export default class CenterMode extends Component {
         <h2 className="mt-5">Trending Documentaries</h2>
         <hr color="white"/>
         <Slider {...settings} >
-        <div className="container listed-docs" >
-            <img src={dataSet[15].img} alt="" />
-            <div className="overlay"></div>
-            <div className="button"><a href="#">WATCH</a></div>
-          </div>
-          <div className="container listed-docs" >
-            <img src={dataSet[16].img} alt="" />
-            <div className="overlay"></div>
-            <div className="button"><a href="#">WATCH</a></div>
-          </div>
-          <div className="container listed-docs" >
-            <img src={dataSet[17].img} alt="" />
-            <div className="overlay"></div>
-            <div className="button"><a href="#">WATCH</a></div>
-          </div>
-          <div className="container listed-docs" >
-            <img src={dataSet[18].img} alt="" />
-            <div className="overlay"></div>
-            <div className="button"><a href="#">WATCH</a></div>
-          </div>
-          <div className="container listed-docs" >
-            <img src={dataSet[19].img} alt="" />
-            <div className="overlay"></div>
-            <div className="button"><a href="#">WATCH</a></div>
-          </div>
-          <div className="container listed-docs" >
-            <img src={dataSet[20].img} alt="" />
-            <div className="overlay"></div>
-            <div className="button"><a href="#">WATCH</a></div>
-          </div>
-          <div className="container listed-docs" >
-            <img src={dataSet[21].img} alt="" />
-            <div className="overlay"></div>
-            <div className="button"><a href="#">WATCH</a></div>
-          </div>
-          <div className="container listed-docs" >
-            <img src={dataSet[22].img} alt="" />
-            <div className="overlay"></div>
-            <div className="button"><a href="#">WATCH</a></div>
-          </div>
-          <div className="container listed-docs" >
-            <img src={dataSet[23].img} alt="" />
-            <div className="overlay"></div>
-            <div className="button"><a href="#">WATCH</a></div>
-          </div>
+        {sliderImg}
         </Slider>
       </div>
     );
