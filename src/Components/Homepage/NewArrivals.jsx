@@ -38,6 +38,7 @@ export default class CenterMode extends Component {
       slidesToShow: 3,
       arrows: true,
       speed: 1000,
+      
       responsive: [
         {
           breakpoint: 1024,

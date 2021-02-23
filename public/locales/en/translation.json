@@ -1,0 +1,29 @@
+{
+    "Navbar": {
+        "1": "Home",
+        "2": "Categories",
+        "3": "About",
+        "4": "Contact",
+        "5": "What are you looking for?"
+    },
+    "Footer" : {
+        "1": "Welcome to DocFlix, the leading source for 100% free documentary films.We curate the best documentary films available online for educational purposes as well as personal enjoyment.",
+        "2": "Menu",
+        "3": "Home",
+        "4": "Categories",
+        "5": "Contact",
+        "6": "About",
+        "7": "Terms of Services",
+        "8": "Stay Connected",
+        "9": "Stay connected , stay inspired"
+      },
+      "About" :{
+        "1":"About This Project",
+        "2":"Purpose" ,
+        "3":"This work is the final task of Kodluyoruz.org Adana Full Stack Web Development Bootcamp training. The aim of this project is to develop an application by using the tools we learned during the training effectively.",
+        "4":"What is used for this project ?"      
+        },
+      "Contact":{
+          "1": "CONTACT WITH DEVELOPERS"
+      }
+}

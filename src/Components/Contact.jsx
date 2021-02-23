@@ -1,17 +1,19 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./contact.css"
+import {useTranslation} from "react-i18next";
 import IMGOZGE from "./ozge.jpeg"
 
 import { Container, Row, Image } from "react-bootstrap"
 
 
 function Contact() {
+    const {t} = useTranslation();
     return (
         <>
             <Container>
                 <div className="row mt-5 ">
-                    <h1>CONTACT WITH DEVELOPERS</h1>
+                    <h1>{t("Contact.1")}</h1>
                 </div>
                 <hr color="white"/>
                 <div className="row mt-5 ">

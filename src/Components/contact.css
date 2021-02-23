@@ -2,3 +2,6 @@ ul li a:hover {
  color : #e788f3 !important;
  text-decoration: none !important;
 }
+ul li i:hover{
+    color :#e788f3 !important;
+}

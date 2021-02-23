@@ -1,10 +1,11 @@
 .listed-docs{
     cursor:grab !important;
-   
+    /* transition: transform .2s !important; */
     box-shadow: #dbe0de;
   }
   .listed-docs:hover {
    opacity: 0.6 !important;
+  /*  transform : scale(1.5) !important; */
   }
 .container{
     position: relative;
