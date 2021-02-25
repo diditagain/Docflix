@@ -17,6 +17,11 @@
     "8": "Stay Connected",
     "9": "Stay connected , stay inspired"
   },
+  "Homepage":{
+    "NewArrivals": "Jump Into New Arrivals",
+    "Trends":"Trending Documentaries",
+    "TopRated": "Top Rated"
+  },
   "About": {
     "1": "About This Project",
     "2": "Purpose",

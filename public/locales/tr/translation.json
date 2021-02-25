@@ -17,6 +17,11 @@
         "8": "İletişimde Kalın",
         "9": "Belgesellerin gizli dünyasından ilham almaya devam edin."
     },
+    "Homepage": {
+        "NewArrivals": "Yenilere Göz At",
+        "Trends": "Popüler Belgeseller",
+        "TopRated": "En İyiler"
+    },
     "About": {
         "1": "Proje Hakkında",
         "2": "Projemizin Amacı :",
@@ -39,10 +44,10 @@
         "Crime": "Suç"
     },
     "sortTypes": {
-        "Recommended":"Önerilen",
-        "ByName":"İsme göre",
-        "ByView":"İzlenmeye göre ",
-        "ByLike":"Beğeniye göre",
-        "ByComment":"Yorum sayısına göre"
+        "Recommended": "Önerilen",
+        "ByName": "İsme göre",
+        "ByView": "İzlenmeye göre ",
+        "ByLike": "Beğeniye göre",
+        "ByComment": "Yorum sayısına göre"
     }
 }
