@@ -6,9 +6,30 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import dataSet from "../../data/documentraies.jsx"
+import {
+  Route,
+  BrowserRouter as Router,
+  Link,
+  useRouteMatch,
+} from 'react-router-dom';
 
 export default class PauseOnHover extends Component {
   render() {
+
+    const Carousel = [
+      61,62
+    ]
+
+    const sliderImg = dataSet.filter((item) => Carousel.includes(item.id)).map((item, index) => (
+      <Link to={`/documentaries/${item.id}`} style={{ textDecoration: 'none', color: 'white' }}>
+        <div className="container listed-docs" >
+          <img className="text-center" src={item.img} style={{height: "350px" , width: "1000px"  }} alt="" />
+          {/* <div className="overlay"></div>
+          <div className="button"><a href="#">WATCH</a></div> */}
+        </div>
+      </Link>
+    ))
     var settings = {
       dots: true,
       infinite: true,
@@ -25,24 +46,7 @@ export default class PauseOnHover extends Component {
       <div className="container mt-3" >
 
         <Slider {...settings} >
-          <div className="row">
-            <img src="https://picsum.photos/id/237/600/300" alt="" />
-            </div>
-          <div>
-            <img src="https://picsum.photos/id/237/600/300" alt="" />
-          </div>
-          <div>
-            <img src="https://picsum.photos/id/237/600/300" alt="" />
-          </div>
-          <div>
-            <img src="https://picsum.photos/id/237/600/300" alt="" />
-          </div>
-          <div>
-            <img src="https://picsum.photos/id/237/600/300" alt="" />
-          </div>
-          <div>
-            <img src="https://picsum.photos/id/237/600/300" alt="" />
-          </div>
+          {sliderImg}
         </Slider>
       </div>
     );

@@ -1,7 +1,10 @@
 /* * {
 	outline: 1px solid red;
 } */
-
+.list{ 
+    height:120px !important;
+    width:200px !important;
+}
 .list-item:hover h2{
     color:darkorange;
 }

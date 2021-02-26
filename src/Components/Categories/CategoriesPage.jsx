@@ -10,7 +10,9 @@ function CategoriesPage(props) {
     const result = dataset.filter(item => item.category.toLowerCase() == categoryID.toLowerCase()).slice();
 
     return(
+    <div>
         <Documentaries searchResult={result}></Documentaries>
+        </div>
     );
 
 }

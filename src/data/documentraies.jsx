@@ -56,6 +56,8 @@ import doc55 from "../images/documentaries/55.jpg"
 import doc56 from "../images/documentaries/56.jpg"
 import doc57 from "../images/documentaries/57.jpg"
 import doc58 from "../images/documentaries/58.jpg"
+import doc61 from "../images/documentaries/61.jpg"
+import doc62 from "../images/documentaries/62.jpg"
 
 const dataSet = [
     {
@@ -191,18 +193,18 @@ const dataSet = [
         "img": doc11,
         "url":"https://www.youtube.com/watch?v=YteGh1KEUZU" 
     },
-    {
-        "id": 12,
-        "name": "Formula 1: Drive to Survive",
-        "duration": "40:00",
-        "view": "501158",
-        "like": "4332",
-        "comment": "19632",
-        "description": "Docuseries following the FIA Formula One World Championship across multiple seasons.",
-        "category": "History",
-        "img": "",
-        "url":"https://www.youtube.com/watch?v=mQ7CpDUaBYI" 
-    },
+    // {
+    //     "id": 12,
+    //     "name": "Formula 1: Drive to Survive",
+    //     "duration": "40:00",
+    //     "view": "501158",
+    //     "like": "4332",
+    //     "comment": "19632",
+    //     "description": "Docuseries following the FIA Formula One World Championship across multiple seasons.",
+    //     "category": "History",
+    //     "img": "",
+    //     "url":"https://www.youtube.com/watch?v=mQ7CpDUaBYI" 
+    // },
     {
         "id": 13,
         "name": "The Russians",
@@ -754,6 +756,30 @@ const dataSet = [
         "category": "biography",
         "img": doc58,
         "url":"https://www.youtube.com/watch?v=-fPo8kX-CFM"
+    },
+    {
+        "id":61,
+        "name": "Lion Pride Kings Of The Desert Nature",
+        "duration": "44:34",
+        "view": "325410",
+        "like": "4500",
+        "comment": "687",
+        "description": "In the Kalahari Desert, lions grow to be the size of grizzly bears--and they have appetites to match. These big cats need big prey to survive, but hunting giants isn't easy, even for the king of beasts.",
+        "url":"https://www.youtube.com/watch?v=GCZ1xhdPTLQ",
+        "img":doc61,
+        "category": "Wild Nature"
+    },
+    {
+        "id":62,
+        "img":doc62,
+        "category": "Travel",
+        "name": "Trip to India",
+        "duration": "1:08:09",
+        "view": "87984",
+        "like": "1010",
+        "comment": "98",
+        "description": "Explore the Indian cities in the foothills of the Himalayas in all its glory! Discover Indian Rishikesh (00:41​), Dehradun (49:44​), Himalaya (1:02:13​) in UHD resolution just now! You will see the daily life of citizens and the unique heavenly beauty of the Indian Himalayan Region. Only imagine, local people can see the towering peaks of the Himalayas from their homes (19:09​)",
+        "url":"https://www.youtube.com/watch?v=2UuVRWGKKJ0",
     }
 
 ]

@@ -21,7 +21,7 @@ function DocumentaryDetail(props) {
                         <Image fluid src={it.img} className="d-block mx-auto my-2" style={{ width: '160px', height: '110px' }}></Image>
                     </div>
                     <div className="col">
-                        <h6 className="text-center">{it.name}</h6>
+                        <h6 className="text-center" >{it.name}</h6>
                         <p className="small">{it.description.slice(0, 75) + "..."}</p>
                     </div>
                 </div>
