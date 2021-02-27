@@ -5,3 +5,8 @@ ul li a:hover {
 ul li i:hover{
     color :#e788f3 !important;
 }
+
+.contact-images{
+    height: 250px ;
+    width: 350px;
+}
