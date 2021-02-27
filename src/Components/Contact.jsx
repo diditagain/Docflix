@@ -22,7 +22,7 @@ function Contact() {
                         <Image className="contact-images" fluid  src={IMGOZGE} ></Image>
                         <div className="d-flex flex-column mt-3">
                             <h4>Özge BOĞA</h4>
-                            <p className="list-unstyled">Electrical Electronics Engineering</p>
+                            <p className="list-unstyled">Electrical Electronics Engineer</p>
                             <ul className="list-unstyled">
                                 <li>
                                     <i class="fas fa-envelope mr-2"></i>
