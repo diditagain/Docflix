@@ -52,7 +52,7 @@ function Contact() {
                     <div className="d-flex flex-column justify-content-center col-sm-4 ">
                     <Image className="contact-images" fluid  src={IMGHASAN} ></Image>
                         <div className="d-flex flex-column mt-3">
-                            <h4>Özge BOĞA</h4>
+                            <h4>Hasan ÖZDEMİR</h4>
                             <p className="list-unstyled">Computer Engineer</p>
                             <ul className="list-unstyled">
                                 <li>
