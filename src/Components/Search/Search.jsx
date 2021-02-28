@@ -17,7 +17,7 @@ function Search() {
 
     return (<div className="search ">
         <input type="text" name="q"
-            ref={inputValue} className="searchTerm" placeholder="What are you looking for?" />
+            ref={inputValue} className="searchTerm"  placeholder="What are you looking for?" />
         <button type="submit" onClick={handleSubmit} className="searchButton" >
             <i className="fa fa-search fa-md"></i>
         </button>

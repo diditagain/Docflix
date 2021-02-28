@@ -24,8 +24,8 @@
 
 .item-cover-time{
     position: absolute;
-    bottom:0px;
-    right: 0px;
+    bottom:30px;
+    right: -50px;
     font-size: 12px;
     background-color: rgb(24, 24, 24);
     color: rgba(255, 255, 255, 0.9);
