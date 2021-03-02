@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
-
+/* * {
+	outline: 1px solid red;
+  } */
 body {
   background-color: #1B2021;
   font-family: 'Inconsolata', monospace !important;
@@ -29,8 +31,7 @@ body {
   height: 50px;
 }
 .navbar-brand{
-  
-  margin-left: 70px;
+  /* margin-left: 70px; */
 }
 
 /*  navlinks style */
@@ -75,15 +76,13 @@ body {
   height: 100%;
 } 
 
- 
-
 /*search form styles*/
 
 .search {
-  width: 400px;
-  position: relative;
-  display: flex;
-  margin-left: 70px;
+  width: 350px;
+  /* position: relative; */
+  /* display: flex; */
+  
 }
 .search:focus{
   color : none;

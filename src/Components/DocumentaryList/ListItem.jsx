@@ -1,4 +1,5 @@
 import { React } from 'react';
+
 import { Row, Col, Image } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEye, faCommentAlt, faHeart } from '@fortawesome/free-solid-svg-icons'
@@ -12,7 +13,7 @@ function ListItem(props) {
         }}>
             <Col xs={12} sm={12} md={12} lg={3} className="my-auto">
                 <div className="item-cover mx-auto">
-                    <Image fluid src={item.img} className="d-block"></Image>
+                    <Image  src={item.img} className="d-block list"></Image>
                     <div className="item-cover-time">{item.duration}</div>
                 </div>
 

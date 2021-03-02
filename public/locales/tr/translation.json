@@ -1,12 +1,12 @@
 {
-    "Navbar" :{
+    "Navbar": {
         "1": "Anasayfa",
         "2": "Kategoriler",
         "3": "Hakkımızda",
         "4": "İletişim",
         "5": "Ne arıyorsun?"
     },
-    "Footer" : {
+    "Footer": {
         "1": "% 100 ücretsiz belgesel filmlerin önde gelen kaynağı DocFlix'e hoş geldiniz. Hem eğitim amaçlı hem de kişisel eğlence için çevrimiçi olarak bulunan en iyi belgesel filmleri seçiyoruz.",
         "2": "Menu",
         "3": "Anasayfa",
@@ -16,16 +16,38 @@
         "7": "Kullanım Şartları",
         "8": "İletişimde Kalın",
         "9": "Belgesellerin gizli dünyasından ilham almaya devam edin."
-      },
-    "About":{
+    },
+    "Homepage": {
+        "NewArrivals": "Yenilere Göz At",
+        "Trends": "Popüler Belgeseller",
+        "TopRated": "En İyiler"
+    },
+    "About": {
         "1": "Proje Hakkında",
         "2": "Projemizin Amacı :",
-        "3": "Bu çalışma, Kodluyoruz.org Adana Full Stack Web Geliştirme Kampı eğitiminin son görevidir. Bu projenin amacı eğitim sırasında öğrendiğimiz araçları etkin bir şekilde kullanarak bir uygulama geliştirmektir.",
+        "3": "Bu projenin amacı, eğitim sırasında öğrendiğimiz araçları etkin bir şekilde kullanarak belgesel izlemek isteyen kişilere daha iyi kullanıcı deneyimi sağlayan bir uygulama geliştirmektir.",
         "4": "Ne Kullandık? "
     },
-    "Contact" :{
+    "Contact": {
         "1": "BİZİ KİMİZ ?"
+    },
+    "Categories": {
+        "Science": "Bilim",
+        "History": "Tarih",
+        "Politic": "Politika",
+        "WildNature": "Vahşi Doğa",
+        "Art": "Sanat",
+        "Sports": "Spor",
+        "Culture": "Kültür",
+        "Biography": "Biyografi",
+        "Travel": "Seyehat",
+        "Crime": "Suç"
+    },
+    "sortTypes": {
+        "Recommended": "Önerilen",
+        "ByName": "İsme göre",
+        "ByView": "İzlenmeye göre ",
+        "ByLike": "Beğeniye göre",
+        "ByComment": "Yorum sayısına göre"
     }
-
-        
-    }
+}

@@ -56,6 +56,8 @@ import doc55 from "../images/documentaries/55.jpg"
 import doc56 from "../images/documentaries/56.jpg"
 import doc57 from "../images/documentaries/57.jpg"
 import doc58 from "../images/documentaries/58.jpg"
+import doc61 from "../images/documentaries/61.jpg"
+import doc62 from "../images/documentaries/62.jpg"
 
 const dataSet = [
     {
@@ -127,7 +129,7 @@ const dataSet = [
         "like": "1101",
         "comment": "500",
         "description": "A filmmaker forges an unusual friendship with an octopus living in a South African kelp forest, learning as the animal shares the mysteries of her world.",
-        "category": "Wild Nature",
+        "category": "WildNature",
         "img": doc6,
         "url":"https://www.youtube.com/watch?v=3s0LTDhqe5A" 
     },
@@ -163,7 +165,7 @@ const dataSet = [
         "like": "6597",
         "comment": "20508",
         "description": "Emmy Award-winning, 11 episodes, five years in the making, the most expensive nature documentary series ever commissioned by the BBC, and the first to be filmed in high definition.",
-        "category": "Wild Nature",
+        "category": "WildNature",
         "img": doc9,
         "url":"https://www.youtube.com/watch?v=Baw2b39zcUQ" 
     },
@@ -191,18 +193,18 @@ const dataSet = [
         "img": doc11,
         "url":"https://www.youtube.com/watch?v=YteGh1KEUZU" 
     },
-    {
-        "id": 12,
-        "name": "Formula 1: Drive to Survive",
-        "duration": "40:00",
-        "view": "501158",
-        "like": "4332",
-        "comment": "19632",
-        "description": "Docuseries following the FIA Formula One World Championship across multiple seasons.",
-        "category": "History",
-        "img": "",
-        "url":"https://www.youtube.com/watch?v=mQ7CpDUaBYI" 
-    },
+    // {
+    //     "id": 12,
+    //     "name": "Formula 1: Drive to Survive",
+    //     "duration": "40:00",
+    //     "view": "501158",
+    //     "like": "4332",
+    //     "comment": "19632",
+    //     "description": "Docuseries following the FIA Formula One World Championship across multiple seasons.",
+    //     "category": "History",
+    //     "img": "",
+    //     "url":"https://www.youtube.com/watch?v=mQ7CpDUaBYI" 
+    // },
     {
         "id": 13,
         "name": "The Russians",
@@ -607,7 +609,7 @@ const dataSet = [
         "like": "5914",
         "comment": "345",
         "description": "An apex predator, also known as an alpha predator or apical predator, is a predator residing at the top of a food chain upon which no other creatures prey.  Apex predators are usually defined in terms of trophic dynamics, meaning that apex-predator species occupy the highest trophic level or levels and play a crucial role in maintaining the health of their ecosystems. One study of marine food webs defined apex predators as greater than trophic level four. The apex predator concept is commonly applied in wildlife management, conservation and ecotourism.",
-        "category": "wild nature",
+        "category": "wildnature",
         "img": doc46,
         "url":"https://www.youtube.com/watch?v=X0tkj1pAiuk"
     },
@@ -619,7 +621,7 @@ const dataSet = [
         "like": "39123",
         "comment": "3732",
         "description": "Enduring raging winds and icy waters with minimal protection, he enters the intimacy of elephant seals and orcas using clever ethological analyses and gets them used to his presence. Then comes the extraordinary: meet a man who communicates with penguins with body language, calms young seals and turns them into live pillows, lies underwater with 8 ton orcas or mature male seals.",
-        "category": "wild nature",
+        "category": "wildnature",
         "img": doc47,
         "url":"https://www.youtube.com/watch?v=uW9mcG0rdLY"
     },
@@ -631,7 +633,7 @@ const dataSet = [
         "like": "13125",
         "comment": "715",
         "description": "Pantanal is the largest wetland on the planet. Located in the heart of Brazil - South of the Amazon Basin - this nature heaven spreads it’s area across the borders of Paraguay and Bolivia. Year after year the arrival of heavy rains brings an incredible metamorphosis to this land, transforming it in an astonishing underwater realm inhabited by a surprising array of aquatic creatures. Lawrence Wahba and Haroldo Palo Jr, two Brazilian wild life cinematographers embark on a journey to film how these creatures survive the challenge of living in an ever-changing environment that dries every year and the dramatic milestones of their lives.",
-        "category": "wild nature",
+        "category": "wildnature",
         "img": doc48,
         "url":"https://www.youtube.com/watch?v=AL_3OsEsnQc"
     },
@@ -643,7 +645,7 @@ const dataSet = [
         "like": "42782",
         "comment": "2293",
         "description": "The highest mountains on Earth are home to snow leopards, golden eagles, mountain goats, barnacle goslings and gelada monkeys. But only the toughest can endure the extreme weather, scarce food and limited oxygen on these peaks. Using new technology to showcase never-before-filmed animal behavior, Hostile Planet provides unique access to one of the most extreme environments on the planet.",
-        "category": "wild nature",
+        "category": "wildnature",
         "img": doc49,
         "url":"https://www.youtube.com/watch?v=NcRifDitRnU"
     },
@@ -655,7 +657,7 @@ const dataSet = [
         "like": "6545",
         "comment": "284",
         "description": "Baby animals beguile with their innocent charm. But while some remain harmless, others have a deep-rooted instinct. It may take weeks or months of training to hone their skills, but in every corner of the globe predators emerge. Their landscapes and lifestyles maybe very different, but these babies are born to hunt.",
-        "category": "wild nature",
+        "category": "wildnature",
         "img": doc50,
         "url":"https://www.youtube.com/watch?v=iQnvNd6wTj4"
     },
@@ -754,6 +756,30 @@ const dataSet = [
         "category": "biography",
         "img": doc58,
         "url":"https://www.youtube.com/watch?v=-fPo8kX-CFM"
+    },
+    {
+        "id":61,
+        "name": "Lion Pride Kings Of The Desert Nature",
+        "duration": "44:34",
+        "view": "325410",
+        "like": "4500",
+        "comment": "687",
+        "description": "In the Kalahari Desert, lions grow to be the size of grizzly bears--and they have appetites to match. These big cats need big prey to survive, but hunting giants isn't easy, even for the king of beasts.",
+        "url":"https://www.youtube.com/watch?v=GCZ1xhdPTLQ",
+        "img":doc61,
+        "category": "WildNature"
+    },
+    {
+        "id":62,
+        "img":doc62,
+        "category": "Travel",
+        "name": "Trip to India",
+        "duration": "1:08:09",
+        "view": "87984",
+        "like": "1010",
+        "comment": "98",
+        "description": "Explore the Indian cities in the foothills of the Himalayas in all its glory! Discover Indian Rishikesh (00:41​), Dehradun (49:44​), Himalaya (1:02:13​) in UHD resolution just now! You will see the daily life of citizens and the unique heavenly beauty of the Indian Himalayan Region. Only imagine, local people can see the towering peaks of the Himalayas from their homes (19:09​)",
+        "url":"https://www.youtube.com/watch?v=2UuVRWGKKJ0",
     }
 
 ]

@@ -1,6 +1,7 @@
 import { React, useEffect, useState, useRef } from 'react'
 import Select from 'react-select'
-
+import { useTranslation } from "react-i18next";
+import i18next from "../../i18next";
 const tr = [{
     "sortTypes": [
         "Önerilen",
@@ -107,32 +108,30 @@ const customStyles = {
 
 function SortingDropdown(props) {
 
-    const [index,setIndex] = useState(0);
-    const [selectedSort,setSelectedSort] = useState();
-    const options = [
-        { value: 'sort-id', label: en[0].sortTypes[0], isDescending: false },
-        { value: 'sort-name', label: en[0].sortTypes[1], isDescending: false },
-        { value: 'sort-view', label: en[0].sortTypes[2], isDescending: true },
-        { value: 'sort-like', label: en[0].sortTypes[3], isDescending: true },
-        { value: 'sort-comment', label: en[0].sortTypes[4], isDescending: true },
-    ];
+    const inputEl = useRef(null);
+    const [index, setIndex] = useState(0);
 
-    useEffect(() => {
-        setSelectedSort(options[index]);
-    },[]);
+    const { t } = useTranslation();
+    const options = [
+        { value: 'sort-id', label: t("sortTypes.Recommended"), isDescending: false },
+        { value: 'sort-name', label: t("sortTypes.ByName"), isDescending: false },
+        { value: 'sort-view', label: t("sortTypes.ByView"), isDescending: true },
+        { value: 'sort-like', label: t("sortTypes.ByLike"), isDescending: true },
+        { value: 'sort-comment', label: t("sortTypes.ByComment"), isDescending: true },
+    ];
 
 
     const handleChange = (s) => {
         const i = options.indexOf(s);
         setIndex(i);
-        setSelectedSort(options[i]);
         props.change(s);
     }
 
-    const s = (<div className="mt-4" style={{ width: "200px" }}>
+    const sortingDropdown = (<div className="mt-4" style={{ width: "200px" }}>
         <Select
+            ref={inputEl}
             defaultValue={options[index]}
-            value={selectedSort}
+            value={options[index]}
             label="Single select"
             options={options}
             isSearchable={false}
@@ -142,7 +141,7 @@ function SortingDropdown(props) {
         />
     </div>);
 
-    return (<>{s}</>);
+    return (<>{sortingDropdown}</>);
 }
 
 

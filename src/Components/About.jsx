@@ -32,12 +32,15 @@ function About() {
                         <li>ReactJS</li>
                         <li>React-router-dom</li>
                         <li>React-slick</li>
+                        <li>React-select</li>
                         <li>React-bootstrap</li>
                         <li>Bootstrap</li>
                         <li>i18next</li>
                         <li>Javascript</li>
-                        <li>Postman</li>
                         <li>Fontawesome icons</li>
+                        <li>Git</li>
+                        <li>Github</li>
+
                     </ul>
 
                 </div>
